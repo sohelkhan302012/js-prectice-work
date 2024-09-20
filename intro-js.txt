@@ -1,0 +1,155 @@
+
+<------------   1 class    -------------->
+
+
+
+
+https://github.com/sajidhamdard/learnjavascript/blob/main/Syllabus/Syllabus.md
+
+https://github.com/sajidhamdard/learnjavascript/
+
+https://github.com/sajidhamdard/learnjavascript/tree/main/notes/Hindi
+
+https://simplyjavascript.com/
+
+https://github.com/sajidhamdard/learnjavascript/tree/main/Exercises-And-Solutions/exercises
+
+
+JavaScript?
+
+What JavaScript? : 
+    Different Programming Languages
+
+Languages bnate the
+    New Prog. language - Purpose?
+    C - Operating System se kaam krvane ka, OS- C language
+    Backend and Frontend - 
+        Backend - Java, Python, php, .net
+        Frontend - html, css, javascript
+JavaScript - Kamiya, Missing - Features
+frontend 
+    javascript - manually - Vanilla JavaScript
+    libraries/framework - reactjs, angular, vue.js, jquery
+Nodejs - JavaScript ko backend me use karne lag gye
+
+White 
+
+Where to use it? - Web Development - website, Backend Develpment, Mobile- React Native
+
+React Native - Mobile Application
+Mobile - Coding - JavaScript, Reactjs - Web Dev., React + Native
+
+Why JavaScript?
+First Web Development Programming Langauge
+No other options for front-end development
+JS - Backend, frontend, mobile
+Widely used
+Community Support
+
+Current & Future Scope?
+
+Highest used prog langauge
+
+https://survey.stackoverflow.co/2023/
+
+
+
+
+
+
+
+
+
+
+<------------   3 class    -------------->
+
+"use strict";
+x = 10;
+console.log(x);
+
+
+x = 10;
+console.log(x);
+
+Data ? Address, Bank account details, instagram photos, videos 
+
+//Data ko store krana pdta hai?
+
+Store karne ke liye hum use karte hain variables
+
+(Value/Data) Namak - Dabba (Variable)
+Age, Address, AadharCard Details
+
+keyword - special word - jo ki kuch special kaam ke liye use aata hai - Har keyword ka use fix hota hai - Jo b keyword javascript ne bnake diye hain unhe hm sirf usi kam ke liye use karenge jis kam ke liye unhe bnaya gya hai 
+
+Kisi be keyword galat jgah use ni kr skte varna code me error aayegi 
+
+Variables data store karne ke kaam aate hain 
+
+Variables bnane ke liye 3 keywords hote hain 
+
+modern 
+let
+const 
+
+var (old - phle use hota hai )
+
+var variableName = value;
+
+; mandatory ni hai. Upar vali line ka matlab hm ye value is variableName me store karna chahte hain
+
+var age = 50;
+var aadharCard = 454543545435435;
+var myHomeAddress = "Jaipur";
+
+
+var age = 50;
+var age = 100;
+console.log(age);
+
+
+let age = 50;
+let age = 100;
+console.log(age);
+
+let age = 10;
+console.log(age);
+age = 100;
+console.log(age);
+
+
+//Declaration 
+
+let age; //declaration
+
+//Initialization - Value dalna
+
+let age = 10;  //age ko 10 se initialize
+
+//Redeclaration - allowed in var, but not let and const
+
+let age ;
+
+//Reinitialization
+
+age = 30;
+
+const age = 50;
+const age = 100;
+
+const = constant - fix- no change
+
+const age = 50;
+console.log(age);
+age = 100; //error due to const
+
+
+Home work 
+
+Revision 
+Short notes 
+Study https://simplyjavascript.com/tutorials/variables-and-identifier.html#introduction
+
+Variables bnane hai based on rules 
+
+let %sajid = "Sajid";
