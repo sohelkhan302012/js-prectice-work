@@ -247,69 +247,68 @@
 
  
 
-// 7. Print table of 100
 
 
-// Find sum of all numbers from 1 to 20 
-// let total = 0;
-// for (let sum = 1; sum <= 20; ++sum){
-//     total = total + sum;
-// }
-// console.log(total);
+//1.  Find sum of all numbers from 1 to 20 
+let total = 0;
+for (let sum = 1; sum <= 20; ++sum){
+    total = total + sum;
+}
+console.log(total);
 
 
 
 // 2. Find count of all odd numbers from 1 to 20
-// let oddCount = 0;
-// for (let odd = 1; odd <= 20;  ++odd){
-//     if( odd % 2 !== 0){
-// ++oddCount;
-//     }   
-// }
-// console.log(oddCount);
+let oddCount = 0;
+for (let odd = 1; odd <= 20;  ++odd){
+    if( odd % 2 !== 0){
+++oddCount;
+    }   
+}
+console.log(oddCount);
 
 
 // 3. Find count of all even numbers from 1 to 20 
-// let evenCount = 0;
-// for (let even = 1; even <= 20;  ++even){
-//     if( even % 2 == 0){
-// ++evenCount;
-//     }   
-// }
-// console.log(evenCount);
+let evenCount = 0;
+for (let even = 1; even <= 20;  ++even){
+    if( even % 2 == 0){
+++evenCount;
+    }   
+}
+console.log(evenCount);
 
 
 // 4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
-// let divisibleCount = 0;
-// for(let count48 = 1; count48 <= 100; ++count48){
+let divisibleCount = 0;
+for(let count48 = 1; count48 <= 100; ++count48){
 
-//     if(count48 % 4 === 0 && count48 % 8 === 0){
-// ++divisibleCount;
-//     }
-// }
-// console.log(divisibleCount)
+    if(count48 % 4 === 0 && count48 % 8 === 0){
+++divisibleCount;
+    }
+}
+console.log(divisibleCount)
 
 // 5. Print all odd numbers from 50 to 1 in reverse order 
 
-// for(let reverseOrder = 50; reverseOrder >= 1; --reverseOrder){
-//     if(reverseOrder % 2 == 1){
-//         console.log(reverseOrder);
-//     }
-// }
+for(let reverseOrder = 50; reverseOrder >= 1; --reverseOrder){
+    if(reverseOrder % 2 == 1){
+        console.log(reverseOrder);
+    }
+}
 
 // 6. Ask user "How many times do you want to print?" and then ask "What do you want to print" and then print it.
-//  let answer1 = prompt("How many times do you want to print?");
-//  let answer2 = prompt("What do you want to print?");
-//   for(let i = +1; i <= answer1; ++i){
-//     console.log(answer2);
-//   }
+ let answer1 = prompt("How many times do you want to print?");
+ let answer2 = prompt("What do you want to print?");
+  for(let i = +1; i <= answer1; ++i){
+    console.log(answer2);
+  }
 
 // 7. Print table of 100
 
-// for(let j = 1; j <= 10; ++j){
-//     console.log(j*100);
+for(let j = 1; j <= 10; ++j){
+    console.log(j*100);
     
-// }
+}
 
 // for( let z = 1; z <= 100; ++z){
 // console.log(z);
@@ -338,10 +337,10 @@
 // }
 
 
-let table = +prompt("what is number for table");
+// let table = +prompt("what is number for table");
 
-for ( let i = 1; i <= 10; i++){
-    console.log( `${table} x ${i} = ${ i * table }`);
+// for ( let i = 1; i <= 10; i++){
+//     console.log( `${table} x ${i} = ${ i * table }`);
     
-}
+// }
  
