@@ -250,65 +250,65 @@
 
 
 //1.  Find sum of all numbers from 1 to 20 
-let total = 0;
-for (let sum = 1; sum <= 20; ++sum){
-    total = total + sum;
-}
-console.log(total);
+// let total = 0;
+// for (let sum = 1; sum <= 20; ++sum){
+//     total = total + sum;
+// }
+// console.log(total);
 
 
 
 // 2. Find count of all odd numbers from 1 to 20
-let oddCount = 0;
-for (let odd = 1; odd <= 20;  ++odd){
-    if( odd % 2 !== 0){
-++oddCount;
-    }   
-}
-console.log(oddCount);
+// let oddCount = 0;
+// for (let odd = 1; odd <= 20;  ++odd){
+//     if( odd % 2 !== 0){
+// ++oddCount;
+//     }   
+// }
+// console.log(oddCount);
 
 
 // 3. Find count of all even numbers from 1 to 20 
-let evenCount = 0;
-for (let even = 1; even <= 20;  ++even){
-    if( even % 2 == 0){
-++evenCount;
-    }   
-}
-console.log(evenCount);
+// let evenCount = 0;
+// for (let even = 1; even <= 20;  ++even){
+//     if( even % 2 == 0){
+// ++evenCount;
+//     }   
+// }
+// console.log(evenCount);
 
 
 // 4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
-let divisibleCount = 0;
-for(let count48 = 1; count48 <= 100; ++count48){
+// let divisibleCount = 0;
+// for(let count48 = 1; count48 <= 100; ++count48){
 
-    if(count48 % 4 === 0 && count48 % 8 === 0){
-++divisibleCount;
-    }
-}
-console.log(divisibleCount)
+//     if(count48 % 4 === 0 && count48 % 8 === 0){
+// ++divisibleCount;
+//     }
+// }
+// console.log(divisibleCount)
 
 // 5. Print all odd numbers from 50 to 1 in reverse order 
 
-for(let reverseOrder = 50; reverseOrder >= 1; --reverseOrder){
-    if(reverseOrder % 2 == 1){
-        console.log(reverseOrder);
-    }
-}
+// for(let reverseOrder = 50; reverseOrder >= 1; --reverseOrder){
+//     if(reverseOrder % 2 == 1){
+//         console.log(reverseOrder);
+//     }
+// }
 
 // 6. Ask user "How many times do you want to print?" and then ask "What do you want to print" and then print it.
- let answer1 = prompt("How many times do you want to print?");
- let answer2 = prompt("What do you want to print?");
-  for(let i = +1; i <= answer1; ++i){
-    console.log(answer2);
-  }
+//  let answer1 = prompt("How many times do you want to print?");
+//  let answer2 = prompt("What do you want to print?");
+//   for(let i = 1; i <= answer1; ++i){
+//     console.log(answer2);
+//   }
 
-// 7. Print table of 100
+// // 7. Print table of 100
 
-for(let j = 1; j <= 10; ++j){
-    console.log(j*100);
+// for(let j = 1; j <= 10; ++j){
+//     console.log(j*100);
     
-}
+// }
 
 // for( let z = 1; z <= 100; ++z){
 // console.log(z);
@@ -343,4 +343,180 @@ for(let j = 1; j <= 10; ++j){
 //     console.log( `${table} x ${i} = ${ i * table }`);
     
 // }
+
+
+//1.  Find sum of all numbers from 1 to 20 
+
+let total = 0;
+let sum =1;
+while (sum <= 20){
+    total += sum
+    sum++
+}
+console.log(total)
  
+// 2. Find count of all odd numbers from 1 to 20
+ let oddCount = 0;
+ let odd = 1;
+ while (odd <= 20){
+    if(odd % 2 !== 0){
+        oddCount++
+    }
+    odd++
+ }
+ console.log(oddCount)
+
+ // 3. Find count of all even numbers from 1 to 20 
+ let evenCount = 0;
+ let even = 1;
+ while (even <= 20){
+    if(even % 2 == 0){
+        evenCount++
+    }
+    even++
+}
+console.log(evenCount)
+
+// 4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
+let allCount = 0;
+let count = 1;
+while (count <= 100){
+    if(count % 4 === 0 && count % 8 === 0){
+        allCount++
+    }
+    count++
+}
+console.log(allCount)
+
+// 5. Print all odd numbers from 50 to 1 in reverse order 
+let allOddNumbers = 50;
+while (allOddNumbers >= 1){
+    if(allOddNumbers % 2 == 1){
+        console.log(allOddNumbers)
+    }
+    allOddNumbers--
+}
+
+// 6. Ask user "How many times do you want to print?" and then ask "What do you want to print" and then print it.
+// let countNumber = +prompt('How many times do you want to print?');
+// let printName = prompt('What do you want to print;');
+// let startCount = 1;
+// while(startCount <= countNumber){
+//     console.log(printName);
+//     startCount++;
+// }
+
+// 7. Print table of 100
+let table = 1;
+while(table <= 10){
+    console.log(table * 100);
+    table++
+}
+
+//1.  Find sum of all numbers from 1 to 20 
+
+let allNumebr = 1;
+let allSum = 0;
+do{
+    allSum = allSum + allNumebr;
+    allNumebr++
+}while(allNumebr <= 20);
+console.log(allSum);
+
+
+ 
+// 2. Find count of all odd numbers from 1 to 20
+let oddCount120 = 0;
+ let oddNum120 = 1;
+ do{
+  if(oddNum120 % 2 === 1){
+    oddCount120++
+  }
+    oddNum120++
+ }while(oddNum120 <= 20)
+    console.log(oddCount120);
+
+ // 3. Find count of all even numbers from 1 to 20 
+let allEvenNum = 1
+let allEvenCount = 0;
+do{
+    if(allEvenNum % 2 === 0){
+        allEvenCount++
+    }
+    allEvenNum++
+}while(allEvenNum <= 20)
+    console.log(allEvenCount);
+
+// 4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
+let alldivisibleCount = 0;
+let alldivisibleNum = 1;
+do{
+    if(alldivisibleNum % 4 === 0 && alldivisibleNum % 8 === 0){
+        alldivisibleCount++
+    }
+    alldivisibleNum++
+}while(alldivisibleNum <= 100)
+    console.log(alldivisibleCount)
+
+// 5. Print all odd numbers from 50 to 1 in reverse order 
+let allOddNumber = 50;
+do {
+    console.log(allOddNumber);
+    allOddNumber--
+}while(allOddNumber >= 1)
+
+// 6. Ask user "How many times do you want to print?" and then ask "What do you want to print" and then print it.
+// let prompt1 = +prompt('How many times do you want to print?')
+// let prompt2 = prompt('What do you want to print')
+// let prompt3 = 1;
+// do {
+//     console.log(prompt2);
+//     prompt3++
+// }while(prompt3 <= prompt1);
+
+// 7. Print table of 100
+let table100 = 1;
+do{
+    console.log(table100 * 100);
+    table100++
+}while(table100 <= 10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+let c = ""
+for (let a = 1; a <= 3; a++){
+    for (let b = 1; b <= a; b++){
+        c = c + "*";
+        console.log(c)
+    }
+}
+
+let d = ""
+for (let e = 1; e <= 5; e++){
+    for (let f = 1; f <= e; f++){
+        d = d + e;
+        console.log(d)
+    }
+}
+let g = ""
+for (let h = 5; h >= 1; h--){
+    for (let i = 1; i <= h; i++){
+        g= g + h
+    }
+    g = g + "\n";
+}
+console.log(g)
+
+
+
+
