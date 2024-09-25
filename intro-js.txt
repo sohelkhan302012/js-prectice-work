@@ -153,3 +153,823 @@ Study https://simplyjavascript.com/tutorials/variables-and-identifier.html#intro
 Variables bnane hai based on rules 
 
 let %sajid = "Sajid";
+
+
+
+
+
+
+
+
+const AGE = 50;
+const SCHOOL_ADDRESS = "Jhotwara, Jaipur";
+
+
+//var
+
+var age; //declare
+var age = 50; //declare and assign
+var age = 100; //redeclare
+age = 70; //reassign
+age = 20; //reassign
+
+console.log(age); //Hoisting
+var age = 50; //declare and assign
+
+//let 
+
+console.log(age); //Hoisting
+let age = 50; //declare and assign
+
+console.log(typeof 1000);
+console.log(typeof "Sajid $%^%^^&^%");
+
+console.log(10 + 10);
+console.log(10 + "10");
+
+20 variables, assign values
+kuch datatype print 
++- in console
+
+
+
+//number data type
+console.log(typeof 1);
+console.log(typeof 1435435435);
+console.log(typeof 14354.4565);
+console.log(typeof 10000);
+console.log(typeof 0.34543545);
+
+//string data type
+console.log(typeof "Sajid");
+console.log(typeof "123213");
+console.log(typeof "34$#%$#%$#");
+console.log(typeof "565.45645645");
+console.log(typeof "$%$#%$#%$#%()$%$%{}");
+
+console.log(typeof true);
+console.log(typeof false);
+console.log(2 == 2);
+console.log(2 == 3);
+var i;
+let age;
+console.log(i, age);
+
+
+//Falys values
+console.log(false);
+console.log(0);
+
+if (NaN) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+//redeclare
+
+var x = 10;
+var x = 50;
+let age = 10;
+const y = 5;
+
+//reassign
+
+var x = 10;
+x = 50;
+let age = 10;
+age = 50;
+const y = 5;
+y = 50;
+
+
+//TDZ - Temporal Dead Zone
+console.log(x); //undefined
+var x = 10; //No TDZ
+console.log(x);
+console.log(age);
+x = 50;
+console.log(y);
+let age = 10; //Birth 1-7 TDZ
+age = 50;
+const y = 5; //Birth 1-9 TDZ
+console.log(y);
+//Hoisting
+
+document.write("Hello Sajid<br>Good Morning");
+
+
+console.log(10 + 10); //20
+console.log(10 + "10"); //1010
+console.log("10" + 10 + 5 + 5); //101055
+console.log("100" - 20); //80
+console.log("10" * 2);
+console.log("Sajid" - 20); //NaN Not a number
+console.log("Sajid" + 10); //Sajid10
+console.log(false + 10); //10
+console.log(true + false); //1
+console.log(true + 0 + 1 + "10"); //210
+console.log("Sajid" + " " + "Khan");
+console.log(true + "100"); //true100
+console.log(true * 5 + "100"); //5100
+console.log("10" * "2");
+console.log("10A" * 20); //NaN
+//Coercion - Automatic type conversion - javascript khud karti hai
+
+/**
+ *
+ * number + string = string + string = string
+ * number + number = number
+ * boolean  + number = number
+ * boolean + string = string
+ */
+
+
+console.log(10 + 10); //20
+console.log(10 + Number("10")); //1010
+console.log(Number("10") + 10 + 5 + 5); //101055
+console.log("100" - 20); //80
+console.log("10" * 2);
+console.log("Sajid" - 20); //NaN Not a number
+console.log("Sajid" + 10); //Sajid10
+console.log(Number(false) + 10); //10
+console.log(true + false); //1
+console.log(true + 0 + 1 + Number("10")); //210
+
+
+console.log(true + Boolean(10)); //2
+console.log(true + Boolean(0)); //1
+console.log(true + Boolean("")); //1
+console.log(true + Boolean("Sajid")); //2
+
+console.log(10 + String(10)); //1010
+console.log(String(true) + true); //2 "true" + true
+
+console.log(true + false - 20 * 2 + "100");
+/**
+ * true + false - 40 + '100'
+ * 1 - 40 + '100'
+ * -39 + '100'
+ * -39100
+ */
+
+
+console.log(20 + "5");
+console.log("15" - 3);
+console.log("8" + 2 + 3);
+console.log("25" * "2");
+console.log(true + "15");
+console.log(false + 10);
+console.log(10 + Number("10"));
+console.log(String(10) + 5);
+console.log("Hello" + 100);
+console.log("100" - true);
+console.log(Number("50") + 30);
+console.log(Boolean(0) + 5);
+console.log("7" * true);
+console.log(100 - Number(null));
+console.log(Number(false) + 25);
+console.log(50 + " " + 25);
+console.log(String(false) + 10);
+console.log(Boolean("") + 10);
+console.log("5" - "3" + true);
+console.log("Hello" * 2);|
+
+
+console.log(true + "5" - false + 2 * "3");
+console.log("10" * true + Number(false) + "20" - "5");
+console.log(5 + true * "10" / false + String(2 + 2));
+console.log((Boolean("false") + 3) * (undefined + "5") - null);
+console.log(Number("10") + Boolean("0") * ("15" / true) + "ABC" - false);
+
+
+console.log(Number("10") + Boolean("0") * ("15" / true) + "ABC" - false);
+console.log(Number("10") + Boolean("0") * ("15" / true) + "100" - false);
+// 10 + true * 15 + "100"- false
+// 10 + 15 + "100" - false
+// 25 + "100" - false
+// 25100 - false =  25100
+console.log(Number("10"), Boolean("0"), "15" / true, "ABC" - false);
+console.log(NaN * 2);
+console.log(0 * 8 * 9 * 10);
+
+console.log("10" * true + Number(false) + "20" - "5");
+/**
+ * 10 + 0 + "20" - "5"
+ * 1020 - 5 = 1015
+ */
+console.log(true + "5" - false + 2 * "3");
+//true + "5" = true5
+//true + 10 = 1
+//sajid - 20 = NaN
+
+console.log(1, 2, 3, 4, 5);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+console.warn("Hello.......");
+console.error("Hello.................");
+
+console.log(1);
+alert("Hello.");
+console.log(2);
+document.write("<i>Hello Sajid</i><br>Hello");
+
+document.getElementById("test").innerHTML = "<i>Sajid Ali Khan</i>";
+
+
+//Single Line Comment
+//console.log(1);
+//alert("Hello.");
+//console.log(2);
+//document.write("<i>Hello Sajid</i><br>Hello");
+
+/*
+Multi line comment
+console.log(1);
+alert("Hello.");
+console.log(2);
+document.write("<i>Hello Sajid</i><br>Hello");*/
+
+console.log("Sajid");
+
+/**
+ * Code ko comment karne ke liye. Disable ho jata hai and run ni hota hai
+ *
+ *
+ */
+
+//2024 - Foundation Year
+
+/**
+ * this function adds two numbers
+ * @param {*} a
+ * @param {*} b
+ */
+function add(a, b) {
+  console.log(a + b);
+}
+
+
+https://simplyjavascript.com/guidelines.html#comments
+
+/**
+ * Code ko comment karne ke liye. Disable ho jata hai and run ni hota hai
+ *
+ *code ko explain karne ke liye hum comment likh skte hain
+
+ ya fir code me koi complex ya business logic hai to comment use kar skte hian use explain karne ke liye
+
+ Code ka documentation banana hai to bhi comment kr skte hain
+ */
+
+//2024 - Foundation Year
+
+
+
+let answer = confirm("Do you want to play cricket?");
+//Okay true  Cancel  false
+console.log(answer);
+if (answer) {
+  console.log("Let's play cricket");
+} else {
+  console.log("Okay. Please visit next time.");
+}
+
+
+let answer = prompt("What is your name?");
+console.log(answer);
+
+
+console.log(2 ** 5);
+console.log(2 ** 10);
+console.log(3 ** 3);
+console.log(10 % 3);
+console.log(15 % 4);
+console.log(19 % 12);
+//console.log(++10);
+let a = 10;
+console.log(++a);
+++a;
+++a;
+++a;
+++a;
+console.log(a);
+--a;
+--a;
+--a;
+console.log(a);
+
+
+console.log(10 > 20);
+console.log(20 < 40);
+console.log(10 >= 10);
+console.log(10 <= 10);
+console.log(5 != 5);
+console.log(11 != 10);
+console.log(20 != 20);
+
+console.log(10 == 10);
+console.log(11 == 10);
+console.log(25 == 25);
+console.log(10 == "10");
+console.log(100 == "100");
+
+console.log(10 === 10);
+console.log(11 === 10);
+console.log(25 === 25);
+console.log(10 === "10");
+console.log(100 === "100");
+
+console.log("sajid" == "Sajid");
+//case sensitive
+
+let a = 5; //= assignment operator
+a = a + 5;
+console.log(a);
+
+let b = 10;
+b += 40; //b = b + 40
+console.log(b);
+console.log(typeof 10, typeof "Sajid");
+
+
+console.log((10 + 15) * 2);
+console.log(10 + 15 * 2);
+
+
+let a = 10;
+console.log(a++);
+console.log(a);
+
+let b = 1;
+console.log(++b + ++b + ++b); //2+3+4
+
+let a = 1;
+let b = 2;
+console.log(++a + b++ + a++ + ++b + b + a);
+//2 + 2 + 2 + 4 + 4 + 3
+
+let a = 1;
+let b = 2;
+console.log(a + a++ + ++a + ++a + ++b + b++ + b++ + b);
+//1 + 1 + 3 + 4 + 3 + 3 + 4 + 5
+
+console.log(5 !== "5");
+console.log(10 !== "11");
+console.log(5 !== 5);
+
+AND = &&, OR = || and NOT ! 
+
+ x    &&    y 
+true     true = true
+true     false = false 
+false    true = false 
+false    false = false
+
+console.log(10 < 20 && 5 > 2);
+console.log(10 < 20 && 1 > 2);
+console.log(10 < 5 && 10 == 10);
+console.log(10 > 2 && 5 > 1 && 100 < 200);
+console.log(10 > 20 && 5 > 1 && 100 < 200);
+
+ x    ||     y 
+true     true = true
+true     false = true 
+false    true = true 
+false    false = false
+
+console.log(10 < 20 || 5 > 2); //true
+console.log(10 < 20 || 1 > 2); //true
+console.log(10 < 5 || 10 == 10); //true
+console.log(10 > 2 || 5 > 1 || 100 < 200); //true
+console.log(10 > 20 || 5 > 1 || 100 < 200); //true
+console.log(10 < 5 || 5 > 10 || 5 - 2 == 4); //false
+
+Not 
+
+!x 
+!true = false 
+!false = true
+
+console.log(!(10 > 5)); //false
+console.log(!(0 >= 1)); //true
+console.log(!(10 == 0)); //true
+
+console.log(!10);
+// 0 false 10 true false
+console.log(!0); //true
+console.log(!10 > 5); //false
+/**
+ * !true > 5
+ * false > 5
+ * 0 > 5
+ */
+
+if (!false) {
+  console.log("Yes");
+}
+
+
+let a = 5;
+console.log((10 + 5) * 10 - 5 + ++a + !false);
+/**
+ * 15 * 10 - 5 + 6 + 1
+ * 150 - 5 + 6 + 1
+ * 145 + 7
+ * 152 = 152
+ */
+
+
+Garbage - Kachra/Wastage 
+Programming me Garbage ?
+Garbage aisi occupied memory ko delete kr deta hai jiska ki ab humare code me koi use ni hai 
+Garbage Collector kya hai ? Ek utility software hai jo apne aap memory check krta rhta hai ki hume memory clean karni hai ya nhi
+Garbage ko chlana pdega ? nhi. apne aap chlta hai 
+
+Kab chlta hai ? ye b fix ni hai 
+
+Memory jyada occupied hai to GC fast chlega. Aur memory kam occupied hai to GC slow chlega. 
+
+let sajid = {
+  name: "Sajid",
+  age: 32,
+  address: "Jaipur",
+};
+sajid = undefined;
+console.log(sajid);
+
+PM -> speech -> 
+English -> E to C -> Public live 
+English record -> Translate -> Publish 
+
+HLC -> Convert -> LLC -> O/S instructions
+
+conversion ? compiler/interpreter
+
+compiler -> pure code ko ek sath compile(check, llc me convert krega) krega aur ek file me dal dega. vo file new file bnegi
+
+JS compiler use ni krti hai
+
+
+HelloWorld.java 
+
+javac HelloWorld.java   - compile -> HelloWorld.class
+
+let hour = 21;
+if (hour >= 22) console.log("Coffee");
+else console.log("Chai");
+
+let hour = 21;
+if (hour >= 22) {
+  console.log("Coffee");
+  console.log("Party");
+}
+
+Wrong 
+
+let percentage = 70;
+if (percentage >= 60) {
+  console.log("First Division");
+} else {
+  console.log("Second Division");
+}
+
+
+let percentage = 70;
+if (percentage >= 60) {
+  console.log("First Division");
+} else if (percentage >= 40) {
+  console.log("Second Division");
+} else if (percentage >= 30) {
+  console.log("Third Division");
+} else {
+  console.log("Fail");
+}
+
+
+let temp = 50;
+
+if (temp >= 40 && temp <= 60) {
+}
+
+if (10 > 5 || 10 < 20) {
+  console.log("Yes");
+}
+
+let x = 5;
+if (x > 0 && x < 10) {
+  console.log("x is between 0 and 10");
+}
+
+
+for (let i = 1; i <= 10; ++i) {
+  console.log(i);
+}
+/**
+ * i = 1 - ek bar chlega 1st Number
+ * 1 <= 10 - true - 2nd number
+ * console.log("Hello");  3rd number
+ * ++i - 1 > 2 - 4th number
+ */
+//Home Work
+/**
+ * 2 ki table print
+ * all multiples of 5 between 1 to 100
+ * hello world print 50 times
+ * 1-10 print
+ * 10-1 print
+ * 2 ki table ulti print krvadi 20 18
+ */
+
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 5 === 0 && i % 8 === 0) {
+    console.log(i);
+  }
+}
+
+
+for (let i = 1; i <= 100; i++) {
+  console.log(i * 5);
+}
+
+
+for (let i = 1; i <= 100; i++) {
+  //even numbers
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+
+for (let i = 1; i <= 100; i++) {
+  //odd numbers
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
+
+
+for (let i = 1; i <= 100; i = i + 7) {
+  //odd numbers
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
+
+for (let i = 10; i > 0; --i) {
+  console.log(i);
+}
+
+for (let i = 100; i >= 1; i = i - 3) {
+  console.log(i);
+}
+
+
+//1-5  total 1+2+3+4+5 = 15
+let total = 0;
+for (let i = 1; i <= 10; i++) {
+  total = total + i;
+  console.log(i, total);
+}
+
+let total = 0;
+for (let i = 1; i <= 100; i++) {
+  if (i % 3 == 0 && i % 5 === 0) {
+    total = total + 1;
+  }
+}
+console.log(total);
+
+1. Find sum of all numbers from 1 to 20 
+2. Find count of all odd numbers from 1 to 20 
+3. Find count of all even numbers from 1 to 20 
+4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
+5. Print all odd numbers from 50 to 1 in reverse order 
+6. Ask user "How many times do you want to print?" and then ask "What do you want to print" and then print it.
+7. Print table of 100
+
+
+//for loop
+for (let index = 1; index <= 10; index++) {
+  console.log(index);
+}
+
+//while loop
+let index = 1;
+while (index <= 10) {
+  console.log(index);
+  index++;
+}
+
+
+//Exercise - For loop - While loop se bhi karne hain
+
+main difference ?
+for loop - jb hmare pas fix number of iteration ho tab for loop use krte hain. Iteration ka matlab for loop kaunsi bar chl rha hai.
+
+let choice = prompt("Do you want to play the game? Type: Yes/No");
+while (choice === "Yes") {
+  console.log("Playing game");
+  choice = prompt("Do you want to continue the game? Type: Yes/No");
+}
+
+let choice;
+do {
+  console.log("Playing game");
+  choice = prompt("Do you want to continue the game? Type: Yes/No");
+}while (choice === "Yes");
+
+
+
+for (let i = 1; i <= 5; i++) {
+  console.log("Hello");
+  console.log("Hello");
+  console.log("Hello");
+  console.log("Hello");
+  console.log("Hello");
+}
+
+
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= 5; j++) {
+    console.log("Hello");
+  }
+}
+
+for (let i = 1; i <= 5; i++) {
+  let str = "";
+  for (let j = 1; j <= i; j++) {
+    str = str + "*";
+  }
+  console.log(str);
+}
+/**
+ 
+*
+**
+***
+****
+*****
+
+ */
+
+
+for (let i = 5; i >= 1; i--) {
+  let str = "";
+  for (let j = 1; j <= i; j++) {
+    str = str + "*";
+  }
+  console.log(str);
+}
+
+for (let i = 5; i >= 1; i--) {
+  let str = "";
+  for (let j = 1; j <= i; j++) {
+    str = str + i;
+  }
+  console.log(str);
+}
+
+for (let i = 1; i <= 10; i++) {
+  if (i >= 6 && i <= 8) {
+    continue;
+  }
+  console.log(i);
+}
+
+for (let i = 1; i <= 10; i++) {
+  if (i >= 6 && i <= 8) {
+    break;
+  }
+  console.log(i);
+}
+
+
+https://github.com/sajidhamdard/learnjavascript/blob/main/Exercises-And-Solutions/exercises/07-loop-exercise.md
+
+
+let i = 4;
+if (i === 1) {
+  console.log("A");
+} else if (i === 2) {
+  console.log("B");
+} else if (i === 3) {
+  console.log("C");
+} else {
+  console.log("D");
+}
+
+
+let i = 0;
+if (i >= 1 && i <= 5) {
+  console.log("A");
+} else if (i > 5) {
+  console.log("B");
+} else {
+  console.log("D");
+}
+
+
+let i = 4;
+switch (i) {
+  case 1:
+    console.log("A");
+    break;
+  case 2:
+    console.log("B");
+    break;
+  case 3:
+    console.log("C");
+    break;
+  default:
+    console.log("D");
+}
+
+
+let i = 4;
+switch (i) {
+  case 1:
+  case 5:
+    console.log("A");
+    break;
+  case 2:
+    console.log("B");
+    break;
+  case 3:
+    console.log("C");
+    break;
+  default:
+    console.log("D");
+}
+
+
+let board = "CBSE";
+switch (board) {
+  case "RBSE":
+  case "KTU":
+    console.log("Rajasthan");
+    break;
+  case "CBSE":
+  case "ISC":
+    console.log("Delhi");
+    break;
+}
+
+let i = 5;
+switch (i) {
+  case 1:
+    console.log("A");
+    break;
+  case 2:
+    console.log("B");
+    break;
+  case 3:
+    console.log("C");
+    break;
+  default:
+    console.log("D");
+    break;
+}
+
+
+case sensitive 
+data type match
+break
+conditions use ni krni hai. simple value match
+default ko last me use krna hai 
+multiple cases combine kr skte hain 
+default case ya koi b other case mandatory ni hai
+
+
+// 54321
+// 5432
+// 543
+// 54
+// 5
+
+for (let i = 5; i >= 1; i--) {
+  let str = "";
+  for (let j = 5; j >= 6 - i; j--) {
+    str = str + j;
+  }
+  console.log(str);
+}
+
+
+12345
+2345
+345
+45
+5
+
+for (let i = 1; i <= 5; i++) {
+  let str = "";
+  for (let j = i; j <= 5; j++) {
+    str = str + j;
+  }
+  console.log(str);
+}
