@@ -64,7 +64,6 @@
 // const MY_12TH_SCORE = "86.66%";
 // const MY_CITY_SECOND_NAME = "GULABI NAGRI";
 
-
 // console.log(typeof 123);
 // console.log(typeof "11");
 // console.log(typeof 14354.4565);
@@ -86,9 +85,7 @@
 // let age;
 // console.log(i, age);
 
-
-
-// console.log(20 + "5"); 
+// console.log(20 + "5");
 // //  205
 // console.log("15" - 3);
 // // 12
@@ -129,7 +126,6 @@
 // console.log("Hello" * 2);
 // // nan
 
-
 // console.log(true + "5" - false + 2 * "3");
 // // nan
 // console.log("10" * true + Number(false) + "20" - "5");
@@ -140,7 +136,6 @@
 // // nan
 // console.log(Number("10") + Boolean("0") * ("15" / true) + "ABC" - false);
 // // nan
-
 
 // 2 ki table print
 //  * all multiples of 5 between 1 to 100
@@ -167,7 +162,7 @@
 
 // for( let c = 1; c <= 50 ; ++c){
 //     console.log("helloWorld")
-// } 
+// }
 
 //  * 1-10 print
 //  for( let d = 1; d <= 10; ++d){
@@ -196,7 +191,7 @@
 // for(let h  = 1; h <= 100; ++h){
 //     if(h % 2 == 1){
 //         console.log(h);
-        
+
 //     }
 // }
 //Print all Even numbers from 1 to 100.
@@ -220,7 +215,7 @@
 // for( let k = 1 ; k <= 100; ++k){
 //  l = l + k;
 // }
-// console.log(l); 
+// console.log(l);
 
 //Calculate sum of odd all numbers from 1 to 100.
 //  let m = 0;
@@ -229,7 +224,7 @@
 //      m = m + n;
 // }
 // }
-// console.log(m); 
+// console.log(m);
 //Calculate sum of odd all numbers from 1 to 100.
 //  let m = 0;
 // for( let n = 1 ; n <= 100; ++n){
@@ -237,46 +232,37 @@
 //      m = m + n;
 // }
 // }
-// console.log(m); 
+// console.log(m);
 
 // Print 1,2,4,8,16,32,64.......upto 2048.
 // for( let o = 1 ; o <= 2068;  o = o * 2){
-// console.log(o); 
+// console.log(o);
 // }
 
-
- 
-
-
-
-//1.  Find sum of all numbers from 1 to 20 
+//1.  Find sum of all numbers from 1 to 20
 // let total = 0;
 // for (let sum = 1; sum <= 20; ++sum){
 //     total = total + sum;
 // }
 // console.log(total);
 
-
-
 // 2. Find count of all odd numbers from 1 to 20
 // let oddCount = 0;
 // for (let odd = 1; odd <= 20;  ++odd){
 //     if( odd % 2 !== 0){
 // ++oddCount;
-//     }   
+//     }
 // }
 // console.log(oddCount);
 
-
-// 3. Find count of all even numbers from 1 to 20 
+// 3. Find count of all even numbers from 1 to 20
 // let evenCount = 0;
 // for (let even = 1; even <= 20;  ++even){
 //     if( even % 2 == 0){
 // ++evenCount;
-//     }   
+//     }
 // }
 // console.log(evenCount);
-
 
 // 4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
 // let divisibleCount = 0;
@@ -288,7 +274,7 @@
 // }
 // console.log(divisibleCount)
 
-// 5. Print all odd numbers from 50 to 1 in reverse order 
+// 5. Print all odd numbers from 50 to 1 in reverse order
 
 // for(let reverseOrder = 50; reverseOrder >= 1; --reverseOrder){
 //     if(reverseOrder % 2 == 1){
@@ -307,7 +293,7 @@
 
 // for(let j = 1; j <= 10; ++j){
 //     console.log(j*100);
-    
+
 // }
 
 // for( let z = 1; z <= 100; ++z){
@@ -320,7 +306,6 @@
 
 // for( let y = 1; y <= 100; ++y){
 
-    
 //     if( y % 3 == 0 && y % 5 == 0){
 //         console.log("wecode academy");
 //     }
@@ -336,134 +321,130 @@
 
 // }
 
-
 // let table = +prompt("what is number for table");
 
 // for ( let i = 1; i <= 10; i++){
 //     console.log( `${table} x ${i} = ${ i * table }`);
-    
+
 // }
 
+//1.  Find sum of all numbers from 1 to 20
 
-//1.  Find sum of all numbers from 1 to 20 
+// let total = 0;
+// let sum =1;
+// while (sum <= 20){
+//     total += sum
+//     sum++
+// }
+// console.log(total)
 
-let total = 0;
-let sum =1;
-while (sum <= 20){
-    total += sum
-    sum++
-}
-console.log(total)
- 
-// 2. Find count of all odd numbers from 1 to 20
- let oddCount = 0;
- let odd = 1;
- while (odd <= 20){
-    if(odd % 2 !== 0){
-        oddCount++
-    }
-    odd++
- }
- console.log(oddCount)
+// // 2. Find count of all odd numbers from 1 to 20
+//  let oddCount = 0;
+//  let odd = 1;
+//  while (odd <= 20){
+//     if(odd % 2 !== 0){
+//         oddCount++
+//     }
+//     odd++
+//  }
+//  console.log(oddCount)
 
- // 3. Find count of all even numbers from 1 to 20 
- let evenCount = 0;
- let even = 1;
- while (even <= 20){
-    if(even % 2 == 0){
-        evenCount++
-    }
-    even++
-}
-console.log(evenCount)
+//  // 3. Find count of all even numbers from 1 to 20
+//  let evenCount = 0;
+//  let even = 1;
+//  while (even <= 20){
+//     if(even % 2 == 0){
+//         evenCount++
+//     }
+//     even++
+// }
+// console.log(evenCount)
 
-// 4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
-let allCount = 0;
-let count = 1;
-while (count <= 100){
-    if(count % 4 === 0 && count % 8 === 0){
-        allCount++
-    }
-    count++
-}
-console.log(allCount)
+// // 4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
+// let allCount = 0;
+// let count = 1;
+// while (count <= 100){
+//     if(count % 4 === 0 && count % 8 === 0){
+//         allCount++
+//     }
+//     count++
+// }
+// console.log(allCount)
 
-// 5. Print all odd numbers from 50 to 1 in reverse order 
-let allOddNumbers = 50;
-while (allOddNumbers >= 1){
-    if(allOddNumbers % 2 == 1){
-        console.log(allOddNumbers)
-    }
-    allOddNumbers--
-}
-
-// 6. Ask user "How many times do you want to print?" and then ask "What do you want to print" and then print it.
-// let countNumber = +prompt('How many times do you want to print?');
-// let printName = prompt('What do you want to print;');
-// let startCount = 1;
-// while(startCount <= countNumber){
-//     console.log(printName);
-//     startCount++;
+// // 5. Print all odd numbers from 50 to 1 in reverse order
+// let allOddNumbers = 50;
+// while (allOddNumbers >= 1){
+//     if(allOddNumbers % 2 == 1){
+//         console.log(allOddNumbers)
+//     }
+//     allOddNumbers--
 // }
 
-// 7. Print table of 100
-let table = 1;
-while(table <= 10){
-    console.log(table * 100);
-    table++
-}
+// // 6. Ask user "How many times do you want to print?" and then ask "What do you want to print" and then print it.
+// // let countNumber = +prompt('How many times do you want to print?');
+// // let printName = prompt('What do you want to print;');
+// // let startCount = 1;
+// // while(startCount <= countNumber){
+// //     console.log(printName);
+// //     startCount++;
+// // }
 
-//1.  Find sum of all numbers from 1 to 20 
+// // 7. Print table of 100
+// let table = 1;
+// while(table <= 10){
+//     console.log(table * 100);
+//     table++
+// }
 
-let allNumebr = 1;
-let allSum = 0;
-do{
-    allSum = allSum + allNumebr;
-    allNumebr++
-}while(allNumebr <= 20);
-console.log(allSum);
+// //1.  Find sum of all numbers from 1 to 20
 
+// let allNumebr = 1;
+// let allSum = 0;
+// do{
+//     allSum = allSum + allNumebr;
+//     allNumebr++
+// }while(allNumebr <= 20);
+// console.log(allSum);
 
- 
-// 2. Find count of all odd numbers from 1 to 20
-let oddCount120 = 0;
- let oddNum120 = 1;
- do{
-  if(oddNum120 % 2 === 1){
-    oddCount120++
-  }
-    oddNum120++
- }while(oddNum120 <= 20)
-    console.log(oddCount120);
+// // 2. Find count of all odd numbers from 1 to 20
+// let oddCount120 = 0;
+//  let oddNum120 = 1;
+//  do{
+//   if(oddNum120 % 2 === 1){
+//     oddCount120++
+//   }
+//     oddNum120++
+//  }while(oddNum120 <= 20)
+//     console.log(oddCount120);
 
- // 3. Find count of all even numbers from 1 to 20 
-let allEvenNum = 1
-let allEvenCount = 0;
-do{
-    if(allEvenNum % 2 === 0){
-        allEvenCount++
-    }
-    allEvenNum++
-}while(allEvenNum <= 20)
-    console.log(allEvenCount);
+//  // 3. Find count of all even numbers from 1 to 20
+// let allEvenNum = 1
+// let allEvenCount = 0;
+// do{
+//     if(allEvenNum % 2 === 0){
+//         allEvenCount++
+//     }
+//     allEvenNum++
+// }while(allEvenNum <= 20)
+//     console.log(allEvenCount);
 
 // 4. Find count of all numbers which are divisible by 4 and 8 between from 1 to 100
-let alldivisibleCount = 0;
-let alldivisibleNum = 1;
-do{
-    if(alldivisibleNum % 4 === 0 && alldivisibleNum % 8 === 0){
-        alldivisibleCount++
-    }
-    alldivisibleNum++
-}while(alldivisibleNum <= 100)
-    console.log(alldivisibleCount)
+// let alldivisibleCount = 0;
+// let alldivisibleNum = 1;
+// do{
+//     if(alldivisibleNum % 4 === 0 && alldivisibleNum % 8 === 0){
+//         alldivisibleCount++
+//     }
+//     alldivisibleNum++
+// }while(alldivisibleNum <= 100)
+//     console.log(alldivisibleCount)
 
-// 5. Print all odd numbers from 50 to 1 in reverse order 
-let allOddNumber = 50;
-do {
-    console.log(allOddNumber);
-    allOddNumber--
-}while(allOddNumber >= 1)
+// 5. Print all odd numbers from 50 to 1 in reverse order
+// let allOddNumber = 50;
+// do {
+//     console.log(allOddNumber);
+//     allOddNumber--
+// }while(allOddNumber >= 1)
 
 // 6. Ask user "How many times do you want to print?" and then ask "What do you want to print" and then print it.
 // let prompt1 = +prompt('How many times do you want to print?')
@@ -475,23 +456,11 @@ do {
 // }while(prompt3 <= prompt1);
 
 // 7. Print table of 100
-let table100 = 1;
-do{
-    console.log(table100 * 100);
-    table100++
-}while(table100 <= 10);
-
-
-
-
-
-
-
-
-
-
-
-
+// let table100 = 1;
+// do{
+//     console.log(table100 * 100);
+//     table100++
+// }while(table100 <= 10);
 
 let c = ""
 for (let a = 1; a <= 3; a++){
@@ -517,6 +486,119 @@ for (let h = 5; h >= 1; h--){
 }
 console.log(g)
 
+// Write a switch statement that takes a day number (1 to 7) and prints the corresponding day of the week (e.g., 1 = Monday, 2 = Tuesday, etc.).
+
+let day = "";
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("tuesday");
+    break;
+  case 3:
+    console.log("wednesday");
+    break;
+  case 4:
+    console.log("thursday");
+    break;
+  case 5:
+    console.log("friday");
+    break;
+  case 6:
+    console.log("saturday");
+    break;
+  case 7:
+    console.log("sunday");
+    break;
+  default:
+    console.log("Invalid day number");
+}
+
+// // Write a program using switch that takes a number between 1 and 12 and returns the corresponding month name (1 = January, 2 = February, etc.).
+
+let month = "jun";
+switch (month) {
+  case 1:
+  case "jan":
+    console.log("January");
+    break;
+  case "feb":
+  case 2:
+    console.log("february");
+    break;
+  case 3:
+  case "mar":
+    console.log("march");
+    break;
+  case 4:
+  case "apr":
+    console.log("april");
+    break;
+  case 5:
+  case "may":
+    console.log("may");
+    break;
+  case "jun":
+  case 6:
+    console.log("jun");
+    break;
+  default:
+    console.log("Invalid month number");
+}
+
+for (let z = 1; z <= 50; z++) {
+  if (z >= 1 && z <= 10) {
+    console.log( z + "A");
+  } else if (z >= 11 && z <= 20) {
+    console.log(z + "B");
+} else if (z >= 31 && z <= 40) {
+  console.log(z + "D");
+}
+ else if (z >= 21 && z <= 30) {
+    console.log( z + "C");
+}
+  else if (z >= 41 && z <= 50) {
+    console.log(z + "E");
+  }
+  else{
+    console.log("enter a  valid number");
+  }
+}
 
 
+for( let x = 500; x >= 1; x = x - 5 ){ 
+   console.log(x)
+}
+// *********
+//  *******
+//   *****
+//    ***
+//     *
+
+for( let x = 1; x <= 9; x++){
+    let = str = "";
+    for(let y = 1; y <= x; y++){
+        str = str + y;
+        
+    }
+    console.log(str);
+}
+
+
+
+for (let i = 1; i <= 10; i++) {
+    let str = "";
+    
+    for (let j = 1; j <= i; j++) {
+        str +=  j + " "; 
+    }
+    
+    
+    for (let j = i - 1 ; j >= 1; j--) {
+        str += j + " "; 
+    }
+    console.log(str);
+
+}
 
