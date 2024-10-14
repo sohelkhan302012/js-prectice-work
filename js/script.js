@@ -1560,6 +1560,7 @@ for(let i of countCharacterWord){
 console.log(countCharacterCount);
 
 // Q.20 How can you convert a string into an array of characters?
+
 let countCharactersecond = "How can you convert a string into an array of characters?";
 let convertCharacter = countCharactersecond.split(" ");
 console.log(convertCharacter);
