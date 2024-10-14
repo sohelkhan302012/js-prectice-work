@@ -462,143 +462,1116 @@
 //     table100++
 // }while(table100 <= 10);
 
-let c = ""
-for (let a = 1; a <= 3; a++){
-    for (let b = 1; b <= a; b++){
-        c = c + "*";
-        console.log(c)
-    }
-}
+// let c = ""
+// for (let a = 1; a <= 3; a++){
+//     for (let b = 1; b <= a; b++){
+//         c = c + "*";
+//         console.log(c)
+//     }
+// }
 
-let d = ""
-for (let e = 1; e <= 5; e++){
-    for (let f = 1; f <= e; f++){
-        d = d + e;
-        console.log(d)
-    }
-}
-let g = ""
-for (let h = 5; h >= 1; h--){
-    for (let i = 1; i <= h; i++){
-        g= g + h
-    }
-    g = g + "\n";
-}
-console.log(g)
+// let d = ""
+// for (let e = 1; e <= 5; e++){
+//     for (let f = 1; f <= e; f++){
+//         d = d + e;
+//         console.log(d)
+//     }
+// }
+// let g = ""
+// for (let h = 5; h >= 1; h--){
+//     for (let i = 1; i <= h; i++){
+//         g= g + h
+//     }
+//     g = g + "\n";
+// }
+// console.log(g)
 
-// Write a switch statement that takes a day number (1 to 7) and prints the corresponding day of the week (e.g., 1 = Monday, 2 = Tuesday, etc.).
+// // Write a switch statement that takes a day number (1 to 7) and prints the corresponding day of the week (e.g., 1 = Monday, 2 = Tuesday, etc.).
 
-let day = "";
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("tuesday");
-    break;
-  case 3:
-    console.log("wednesday");
-    break;
-  case 4:
-    console.log("thursday");
-    break;
-  case 5:
-    console.log("friday");
-    break;
-  case 6:
-    console.log("saturday");
-    break;
-  case 7:
-    console.log("sunday");
-    break;
-  default:
-    console.log("Invalid day number");
-}
+// let day = "";
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("tuesday");
+//     break;
+//   case 3:
+//     console.log("wednesday");
+//     break;
+//   case 4:
+//     console.log("thursday");
+//     break;
+//   case 5:
+//     console.log("friday");
+//     break;
+//   case 6:
+//     console.log("saturday");
+//     break;
+//   case 7:
+//     console.log("sunday");
+//     break;
+//   default:
+//     console.log("Invalid day number");
+// }
 
-// // Write a program using switch that takes a number between 1 and 12 and returns the corresponding month name (1 = January, 2 = February, etc.).
+// // // Write a program using switch that takes a number between 1 and 12 and returns the corresponding month name (1 = January, 2 = February, etc.).
 
-let month = "jun";
-switch (month) {
-  case 1:
-  case "jan":
-    console.log("January");
-    break;
-  case "feb":
-  case 2:
-    console.log("february");
-    break;
-  case 3:
-  case "mar":
-    console.log("march");
-    break;
-  case 4:
-  case "apr":
-    console.log("april");
-    break;
-  case 5:
-  case "may":
-    console.log("may");
-    break;
-  case "jun":
-  case 6:
-    console.log("jun");
-    break;
-  default:
-    console.log("Invalid month number");
-}
+// let month = "jun";
+// switch (month) {
+//   case 1:
+//   case "jan":
+//     console.log("January");
+//     break;
+//   case "feb":
+//   case 2:
+//     console.log("february");
+//     break;
+//   case 3:
+//   case "mar":
+//     console.log("march");
+//     break;
+//   case 4:
+//   case "apr":
+//     console.log("april");
+//     break;
+//   case 5:
+//   case "may":
+//     console.log("may");
+//     break;
+//   case "jun":
+//   case 6:
+//     console.log("jun");
+//     break;
+//   default:
+//     console.log("Invalid month number");
+// }
 
-for (let z = 1; z <= 50; z++) {
-  if (z >= 1 && z <= 10) {
-    console.log( z + "A");
-  } else if (z >= 11 && z <= 20) {
-    console.log(z + "B");
-} else if (z >= 31 && z <= 40) {
-  console.log(z + "D");
-}
- else if (z >= 21 && z <= 30) {
-    console.log( z + "C");
-}
-  else if (z >= 41 && z <= 50) {
-    console.log(z + "E");
-  }
-  else{
-    console.log("enter a  valid number");
-  }
-}
+// for (let z = 1; z <= 50; z++) {
+//   if (z >= 1 && z <= 10) {
+//     console.log( z + "A");
+//   } else if (z >= 11 && z <= 20) {
+//     console.log(z + "B");
+// } else if (z >= 31 && z <= 40) {
+//   console.log(z + "D");
+// }
+//  else if (z >= 21 && z <= 30) {
+//     console.log( z + "C");
+// }
+//   else if (z >= 41 && z <= 50) {
+//     console.log(z + "E");
+//   }
+//   else{
+//     console.log("enter a  valid number");
+//   }
+// }
 
+// for( let x = 500; x >= 1; x = x - 5 ){
+//    console.log(x)
+// }
+// // *********
+// //  *******
+// //   *****
+// //    ***
+// //     *
 
-for( let x = 500; x >= 1; x = x - 5 ){ 
-   console.log(x)
-}
-// *********
-//  *******
-//   *****
-//    ***
-//     *
+// for( let x = 1; x <= 9; x++){
+//     let = str = "";
+//     for(let y = 1; y <= x; y++){
+//         str = str + y;
 
-for( let x = 1; x <= 9; x++){
-    let = str = "";
-    for(let y = 1; y <= x; y++){
-        str = str + y;
-        
-    }
-    console.log(str);
-}
+//     }
+//     console.log(str);
+// }
 
+// for (let i = 1; i <= 10; i++) {
+//     let str = "";
 
+//     for (let j = 1; j <= i; j++) {
+//         str +=  j + " ";
+//     }
 
-for (let i = 1; i <= 10; i++) {
-    let str = "";
+//     for (let j = i - 1 ; j >= 1; j--) {
+//         str += j + " ";
+//     }
+//     console.log(str);
+
+// }
+
+// @$@$@
+// @$@$
+// @$@
+// @$
+// @
+
+// let str = "";
+// for(let r=1; r <= 5; r++){
+// for
+// }
+
+// *
+// **
+// ***
+// ****
+// *****
+
+// for (let a = 1; a <= 5; a++){
+//     str = "";
+//     for (let b = 1; b <= a; b++){
+//         str += "*";
+//     }
+//     console.log(str);
+
+// }
+
+// *****
+// ****
+// ***
+// **
+// *
+
+// for (let a = 5; a >= 1; a--){
+//     str = "";
+//     for (let b = a; b >= 1; b--){
+//         str += "*";
+//     }
+//     console.log(str);
+
+// }
+
+// *****
+// *****
+// *****
+// *****
+// *****
+
+// for (let a = 1; a <= 5; a++){
+//     str = "";
+//     for (let b = 1; b <= 5; b++){
+//         str += "*";
+//     }
+
+//     console.log(str);
+// }
+
+// *****
+// *   *
+// *   *
+// *   *
+// *****
+
+// for (let a = 1; a <= 5; a++){
+//     str = "";
+//     for (let b = 1; b <= 5; b++){
+//         str += "*";
+//     }
+// console.log(str);
+
+// }
+
+// *
+// ***
+// *****
+
+// for (let a = 1; a <= 5; a = a + 2){
+//         str = "";
+//         for (let b = 1; b <= a; b++){
+//             str += "*";
+//         }
+//     console.log(str);
+
+//     }
+
+// *****
+// ***
+//  *
+
+// for (let a = 5; a >= 1; a = a - 2){
+//     str = "";
+//     for (let b = a; b >= 1; b--){
+//         str += "*";
+//     }
+// console.log(str);
+
+// }
+
+// console.log("%cThis is custom error design in css and console code", "font-size:16px; background-color:red;color:#fff;padding:4px 8px; border-radius:2px;")
+
+// function oddEven(Num){
+//      if(Num % 2 === 0){
+//         console.log("this number is even")
+//      }
+//      else{
+//         console.log("this number is odd")
+//      }
+// }
+// oddEven(241424)
+// oddEven(25364789)
+
+// function maxFind(Num1,Num2){
+//     if(Num1 > Num2){
+//        console.log(Num1)
+//     }
+//     else if(Num1 < Num2){
+//        console.log(Num2)
+//     }
+//     else{
+//         console.log("Both numbers are equal")
+
+//     }
+// }
+// maxFind(200,155)
+// maxFind(8294249,8375050)
+// maxFind(4848498,8975097)
+// maxFind(99999,99999.01)
+
+// function kiloGram(gram){
+//     let kg = gram / 1000;
+//     if( gram >= 1000){
+//         console.log(kg + " kilograms" )
+//     }
+//     else{
+//         console.log(gram + " grams")
+//     }
+// }
+// kiloGram(1000)
+// kiloGram(45.5)
+// kiloGram(567)
+// kiloGram(3456)
+
+// function table100(b){
+//     for(let a = 1; a <= 10; a++){
+//         console.log(b * a)
+//     }
+// }
+// table100(7)
+// table100(46)
+// table100(14)
+
+// word number of times, hello 5 times
+// table till number, 5 ki table 100 tk
+// function to print Hello 'name',  Hello Sajid
+// add, sub, divide, mul
+
+// function wordPrint(c){
+//     for(let a = 1; a <= 5; a++){
+//         console.log(c)
+//     }
+// }
+// wordPrint("hello")
+// wordPrint("css")
+// wordPrint("javascript")
+
+// function table10(b){
+//     for(let a = 1; a <= 100; a++){
+//         console.log(b * a)
+//     }
+// }
+// table10(5)
+
+// function name(b){
+//    console.log("hello" + " " +  b )
+// }
+// name("Sajid")
+// name("sohel")
+// name("arbaj")
+
+// function sub(d ,e){
+//   console.log( d + e)
+// }
+// function minus(d ,e){
+//   console.log( d - e)
+// }
+// function divide(d ,e){
+//   console.log( d / e)
+// }
+// function multiply(d ,e){
+//   console.log( d * e)
+// }
+// sub(2 ,5)
+// sub(74 , 67)
+// sub(54 , 87)
+// minus(2 ,5)
+// minus(74 ,67)
+// minus(54, 87)
+// divide(2 ,5)
+// divide(74 , 67)
+// divide(54 , 87)
+// multiply(2 ,5)
+// multiply(74 , 67)
+// multiply(54 , 87)
+
+// let a = prompt("Enter + - / *")
+// let b = +prompt("Enter first numbr")
+// let c = +prompt("Enter second numbr")
+// let value = 0;
+// let d = prompt();
+
+// switch(a){
+//     case '+':
+//     case 'plus':
+//     value = b + c;
+//     console.log(value);
+//         break;
+//     case '-':
+//     case 'minus':
+//         value = b - c;
+//         console.log(value);
+//         break;
+//     case '*':
+//     case 'multiply':
+//         value = b * c;
+//         console.log(value);
+//         break;
+//     case '/':
+//       case 'divide':
+//         value = b / c;
+//         console.log(value);
+//         break
+//     case d:
+//         value = b / c;
+//         console.log(value);
+//         break
+//     default:
+//         console.log("Error! Invalid operator");
+//         break;
+// }
+
+// let num = "hello arshad khan";
+// console.log(num.slice(0,5))
+
+// let num = "arshadkhan@gmail.com";
+// console.log(num.slice(0,3).padEnd(4,"*")+num.slice(4,5).padEnd(2,"*")+num.slice(6,7).padEnd(2,"*")+num.slice(8,20));
+// let num1 = "arshadkhan@gmail.com";
+// let maskedEmail = num1.slice(0, 3) + "*".repeat(4) + num1.slice(7, num1.indexOf("@")) + num1.slice(num1.indexOf("@"));
+// console.log(maskedEmail);
+
+// console.log("arshadkhan@gmail.com".replace(/h/g,'*' ).replace(/d/g,'*' ));
+// let a = "";
+// for(i = 1; i <= 100; i++){
+//     a += i + " ";
+//    if( i % 10 === 0){
+//      console.log(a);
+//     a = ""
+//    }
+// }
+// let table = 10;
+// for(i = 1; i <= 10; i++){
+//     console.log(` ${table} * ${i} = ${i*table}`)
+// }
+
+// for (i = 1; i <= 50; i++) {
+// if( i > 0 && i <=10 ){
+//     console.log("a" + i);
+// }
+// else if( i <=20 && i > 1 ){
+//     console.log("b" + i);
+// }
+// else if( i <=30 && i > 20){
+//     console.log("c" + i);
+// }
+// else if( i <=40 && i > 30){
+//     console.log("d" + i);
+// }
+// else if( i <=50 && i > 40){
+//     console.log("e" + i);
+// }
+// }
+
+// for (i = 1; i<= 10000; i*=5 ){
+//     console.log(i);
+// }
+
+// for (i = 1; i<= 500; i++  ){
+//     console.log(i *3);
+// }
+// for (i = 3; i<= 500; i += 3  ){
+//     console.log(i);
+// }
+
+// for ( let i = 120; i<= 1029; i+= 101  ){
+//     console.log(i);
+// }
+
+// for (let i = 1; i <= 70; i++  ){
+//    if( 70 % i == 0){
+//     console.log(i);
+
+//    }
+// }
+// let a = "";
+// for (let i = 1; i <= 5; i++  ){
+// a += 1
+// console.log(a)
+// }
+
+// for (let i = 1; i <= 3; i++) {
+//     let a = "";
+//   for (let j = 1; j <= 3; j++) {
+//     a += "-";
+// }
+// console.log(a);
+// }
+
+// for (let i = 1; i <= 4; i++) {
+//     let a = ""; 
+//     for (let j = 1; j <= 4; j++) {
+//         a += "*";
+//     }
+//     console.log(a);
+// }
+
+// for (let i = 5; i >= 1; i--) {
+//     let a = ""; 
+//         for (let j = 1; j <= i; j++) {
+//             a += j;
+//         }
+//         console.log(a);
+//     }
+
+// for (let i = 5; i >= 1; i--) {
+//     let a = ""; 
+//     for (let j = i; j >= 1; j--) {
+//         a += j;
+//     }
+//     console.log(a);
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     let a = ""; 
+//     for (let j = 5; j >= i; j--) {
+//         a += j;
+//     }
+//     console.log(a);
+// }
+// for (let i = 1; i <= 5; i++) {  
+//     let a = "";                
+//     for (let j = 6 - i; j >= 1; j--) { 
+//         a += j;
+//     }
+//     console.log(a);           
+// }
+
+// for (let i = 1; i <= 8; i++) {  
+//     let a = "";                
+//     for (let j = 1; j <= 2; j++) { 
+//         a += "$" ;
+//     }
+//   if( i % 3 == 0){
+//     console.log(" ")
+//   }   
+//   else{
+//     console.log(a);
     
-    for (let j = 1; j <= i; j++) {
-        str +=  j + " "; 
-    }
-    
-    
-    for (let j = i - 1 ; j >= 1; j--) {
-        str += j + " "; 
-    }
-    console.log(str);
+//   }      
+// }
 
+
+
+// for (let i = 5; i >= 1; i--) {  
+//     let a = "";                
+//     for (let j = i; j >= 1; j--) { 
+//         a += "*" ;
+//     }
+//     console.log(a);  
+// }
+
+// for (let i = 1; i <= 5; i++) {  
+//     let a = "";                
+//     for (let j = 1; j <= i; j++) { 
+//         a += "*" ;
+//     }
+//     console.log(a);
+// }
+
+
+// for (let i = 10; i >= 1; i--) {  
+//     let a = "";                
+//     for (let j =  i; j >= 1; j--) { 
+//         a += j;
+//     }
+//     console.log(a);  
+// }
+
+// for (let i = 1; i <= 5; i++) {  
+//     let a = "";                
+//     for (let j = 1; j <= i; j++) { 
+//         a += "*";
+//     }
+//     console.log(a);  
+// }
+// for (let i = 4; i >= 1; i--) {  
+//     let a = "";                
+//     for (let j = i; j >= 1; j--) { 
+//         a += "*";
+//     }
+//     console.log(a);  
+// }
+// for (let i = 1; i <= 10; i++) {  
+//     let a = ""; 
+//     for (let j = 1; j <= 5 - i; j++) { 
+//         a += " "; 
+//     }               
+//     for (let j = 1; j <= i; j++) { 
+//         a += "*";
+//     }
+//   if(i % 2 !== 0){
+//       console.log(a);  
+//   }
+// }
+
+// let N = 5; // Pyramid height
+
+// for (let i = 1; i <= N; i++) {  
+//     let a = ""; 
+    
+//     // Spaces ka correct calculation: N - i spaces hone chahiye har row ke liye
+//     for (let j = 1; j <= N - i; j++) { 
+//         a += " "; // Add spaces before stars
+//     }               
+    
+//     // Stars ka calculation: 2*i - 1 stars hone chahiye har row mein
+//     for (let j = 1; j <= (2 * i - 1); j++) { 
+//         a += "*"; // Add stars
+//     }
+  
+//     console.log(a);  
+// }
+
+
+// let num = "9079828177";
+// let email = "sohailkhan8107231793@gmail.com";
+// let a = num.slice(0,5).padEnd(10,"*");
+// let b = num.slice(5,10).padStart(10,"*");
+// let c = num.slice(0,3).padEnd(5,"*")+num.slice(5,8).padEnd(5,"*");
+// let d = email.slice([email.length - 13],[email.length]).padStart([email.length],"*");
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+
+// let a = "sohel";
+// // console.log(a.replace("l","s").replace("s","l"));
+// console.log(a.toUpperCase());
+
+
+// for(i = 1; i <= 10; i++){
+//     str = "";
+// for(j = 10; j >= i; j--){
+//     str += i;
+// }
+// console.log(str)
+    
+// }
+
+// let a = "sohel";
+// console.log(a.split("").reverse().join(""));
+
+
+// let a = "hello";
+// console.log(a.charAt().toUpperCase()+ a.slice(1));
+
+
+// HeLlo -> hElLO
+// leArNjavaScript -> LEaRnJAVAsCRIPT
+// let a = "sohel khan";
+// console.log(a.join(" "));
+
+// for(var i=1; i <= 10; i++){
+//     for(var j = 10; j >=i; j--){
+//        if{if }
+//     }
+    
+// }
+
+
+// let name = "SoHEl KhAN";
+// finalName = "";
+//     for (let i of name) {
+//       if(i == i.toLowerCase()){
+//         finalName = finalName + i.toUpperCase(); 
+//       }
+//       else{
+//         finalName = finalName + i.toLowerCase();
+//       }
+// }
+// console.log(name);
+// console.log(finalName);
+
+
+
+// var a = "eteiuyye";
+// let b = a.split("").reverse().join("");
+// if(a === b){
+//   console.log("yes");
+// }
+// else{
+//   console.log("no");
+// }
+
+// 907**381**9877***34567890
+// let a = prompt("please enter your mobile numbr")
+//  let b = a.toString().slice(5,10).padStart(10,"*");
+//  let b = a.toString().slice(0,5).padEnd(10,"*");
+//  let b = a.toString().slice(0,3).padEnd(5,"*") + a.toString().slice(5,8).padEnd(5,"*") + a.toString().slice(10,14).padEnd(7,"*") + a.slice(14);
+//  console.log(b);
+
+// let i = "hello";
+// let str = "";
+// for ( let j = i.length - 1; j >= 0; j--){
+//   str += i[j];
+//   console.log(str);
+// }
+
+// let a = "learnjavascript";
+
+// let b = a.charAt(0).toUpperCase()+a.slice(1);
+// console.log(b);
+
+
+
+// let a = "my name is sohel khan in jaipur city";
+
+// let b = a.split(" ");
+
+// let c = "";
+// for(let i of b){
+// c =  c + " " + i.charAt(0).toUpperCase()+i.slice(1)
+// }
+// console.log(c);
+
+
+// let a = "My nAme iS soHel kHan in JaiPur city";
+// let str = "";
+// for(let i of a){
+// if( i === i.toLowerCase()){
+//   str += i.toUpperCase();
+// }
+// else{
+// str += i.toLowerCase()}
+  
+// }
+// console.log(str);
+// console.log(a);
+
+
+
+// for( let i = 1; i <= 10; i++){
+//   let a = "";
+//   for( let j = 10; j >= i ; j--){
+//     a += i
+//   }
+//   console.log(a);
+// }
+
+
+
+// let a = "javascript"
+// // let a = "sohel khan s/o imamuddin khan"
+// let c = 0;
+// let d = 0;
+// for( let i of a){
+  
+//   if ( i === "a" || i === "e" || i === "i" || i === "o" || i === "u"){
+//     c++
+//   }
+//   else{
+//     d++
+//   }
+// }
+// console.log(c + " " + d );
+
+// let a = "hello world javascript sohel khan is tha web desingner";
+
+// let b = a.split(" ").length;
+
+// console.log(b + " " +  "word");
+
+
+// let a = "hello world, javascript"
+//  let b = a.split(" ");
+//  let d = ""
+//  for(let i of b){
+//  let c = i.length;
+
+//  if( i.length > d.length){
+//  d = i; 
+// }
+
+// }
+// console.log(d);
+
+
+//Array
+// let names = ["Sajid", "Arshad", "Arbaj", "Sohail", "Srk", "Sonu"];
+// console.log(names.length);
+// console.log(names[5]);
+// console.log(names[1]);
+
+// let numbers = [10, 20, 30, 40, 50];
+// console.log(numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4]);
+
+// let numbers = [10, 20, 30, 40, 50];
+// let total = 0;
+// for (let number of numbers) {
+//   console.log(total, number);
+//   total = total + number;
+// }
+// console.log(total);
+
+// let numbers = [10, 20, 31, 40, 50];
+// let total = 0;
+// for (let number of numbers) {
+//   if (number % 2 === 0) {
+//     ++total;
+//   }
+// }
+// console.log(total);
+
+
+
+
+
+
+
+// find max number
+
+
+// let name = [ 20, 50, 199, 67, 89, 507, 786,1111];
+// let maxNumber = 0;
+
+// for ( let i of name){
+//   if(i > maxNumber  ){
+//     maxNumber = i;
+//   }
+// }
+// console.log(maxNumber);
+
+
+
+
+// find min number
+
+
+// let name = [ 20, 50, 199, 67, 89, 507, 786,1111];
+// let maxNumber = 0;
+
+// for ( let i of name){
+//   if(maxNumber < i  ){
+//     maxNumber = i;
+
+//   }
+// }
+// console.log(maxNumber);  
+
+
+
+// find total of odd numbers
+// find total of even numbers
+
+//  let name = [ 20, 50, 199, 67, 89, 507, 786,1111];
+// let totalNumberOdd = 0;
+//  for(let i of name){
+//   if(i % 2 !== 1){
+//     totalNumberOdd++
+//   }
+//  }
+//  console.log(totalNumberOdd);
+//  let name = [ 20, 50, 199, 67, 89, 507, 786,1111];
+// let totalNumberOdd = 0;
+//  for(let i of name){
+//   if(i % 2 === 1){
+//     totalNumberOdd++
+//   }
+//  }
+//  console.log(totalNumberOdd);
+ 
+
+// find total number greater than 50
+//  let name = [ 20, 50, 199, 67, 89, 507, 786,1111,45 , 49, 78];
+
+//  let totalNumber = 0;
+//  for( let i of name){
+//   if(i > 50){
+//     totalNumber++
+//   }
+//  }
+//  console.log(totalNumber);
+
+
+
+
+// find total number less than 50
+
+// let name = [ 20, 50, 199, 67, 89, 507, 786,1111,45 , 49, 78];
+
+//  let totalNumber = 0;
+//  for( let i of name){
+//   if(i < 50){
+//     totalNumber++
+//   }
+//  }
+//  console.log(totalNumber);
+
+
+// let name = [ 20, 50, 50, 199, 67, 89, 507, 786,1111,45 , 49, 78];
+
+//  let totalNumber = 0;
+//  for( let i of name){
+//   if(i === 50){
+//     totalNumber++
+//   }
+//  }
+//  console.log(totalNumber);
+
+
+// find all names greater than length 6
+
+// let names = ["Sajid", "Arshad", "Arbaj", "Sohail", "Srk", "Sonu","javascript", "paython"];
+//  let name2 = "";
+//  for ( let i of names){
+//   if (i.length > 6 ){
+//   name2 = name2 + " " + i
+//   }
+//  }
+//  console.log(name2);
+ 
+
+// find sum of all numbers
+// let name = [ 20, 50, 50, 199, 67, 89, 507, 786,1111,45 , 49, 78];
+// let totalNumber = 0;
+// for (let i of name){
+//   totalNumber+= i
+// }
+// console.log(totalNumber);
+
+
+
+
+// find mul of all numbers
+
+// let name = [ 1,2,3,4,5,6,7,8,9];
+// let totalNumber = 1;
+// for (let i of name){
+//   totalNumber*= i
+// }
+// console.log(totalNumber);
+
+
+// find series is maintaining same order or not.
+
+// 2 4 6 8 10
+// 3 6 9 12 15
+
+// 2 4 6 9 10
+// 3 6 9 11 15
+
+// let a = [2,4,6,8,10,12,14]
+// let b = [2,4,7,8,10,13,14]
+
+// let c = 0;
+
+// for(let i of a){
+//   console.log(a[2] - a[1]);
+// }
+
+
+
+// Q.1  How do you find the length of a string in JavaScript? 
+
+let word = "javascript";
+let  wordLenght = word.length;
+console.log(wordLenght);
+
+
+// Q.2 How can you convert a string to uppercase in JavaScript? 
+
+let secondWord = "hello world";
+let secondWrodUppercase = secondWord.toUpperCase();
+console.log(secondWrodUppercase);
+
+
+// Q.3 How can you convert a string to lowercase in JavaScript? 
+
+let thiredWord = "HELLO JAVASCRIPT";
+let thiredWrodUppercase = thiredWord.toLowerCase();
+console.log(thiredWrodUppercase);
+
+
+// Q.4  How do you concatenate two strings in JavaScript?
+
+let firstConcatenateWord = "sohel";
+let secondConcatenateWord = "khan";
+let finalConcatenateWord = firstConcatenateWord + " " + secondConcatenateWord;
+console.log(finalConcatenateWord);
+
+let finalConcatenateWord2 = "";
+ finalConcatenateWord2 = finalConcatenateWord2.concat(firstConcatenateWord," ",secondConcatenateWord);
+console.log(finalConcatenateWord2);
+
+
+// Q.5 How do you find the index of a character in a string? 
+
+let indexWord = "jaipur is the capital of rajasthan";
+
+let numberOfIndexFirst = indexWord.indexOf("i");
+let numberOfIndexLast = indexWord.lastIndexOf("i");
+console.log(numberOfIndexFirst);
+console.log(numberOfIndexLast);
+
+// Q.6 How do you extract a substring from a string? 
+
+let subStringWord = "I am a web designer";
+ let firstSubString = subStringWord.substring(9);
+ console.log(firstSubString);
+ 
+//  Q.7 How can you replace a part of a string with another string? 
+
+let replaceWord = "my name is arbaj khan";
+
+let repalceName = replaceWord.replace("arbaj", "sohel");
+console.log(repalceName); 
+
+// Q.8 How do you check if a string contains a specific substring? 
+
+let checkSubstringWord = "I am a web designer";
+
+if(checkSubstringWord.includes("gne")){
+    console.log("Yes");
 }
+else{
+    console.log("No");
+    
+}
+
+// Q.9 How can you split a string into an array of substrings? 
+
+let wordSubString = "dehli is the capital of india";
+let splitWordArray = wordSubString.split(" ");
+console.log(splitWordArray);
+
+// Q.10 How do you remove whitespace from both ends of a string in JavaScript? 
+
+let removeWhitespaceWord = "  hello world   ";
+let removeWhitespaceWordTrim = removeWhitespaceWord.trim();
+console.log(removeWhitespaceWordTrim);
+
+// Q.11 How can you repeat a string multiple times in JavaScript? 
+
+let repeatCount ="sohel khan";
+
+let repeatWord = repeatCount.repeat(3);
+console.log(repeatWord);
+
+// Q.12 How do you convert a number to a string in JavaScript? 
+
+let numberToString = 123456;
+let numberToStringString = numberToString.toString();
+console.log(typeof numberToStringString);
+
+// Q.13 How do you check if a string starts with a specific substring?
+
+let startWithWord = "wecode academy";
+let startWord = "we"
+if(startWithWord.startsWith(startWord)){
+    console.log("yes");
+}
+else{
+    console.log("no"); 
+}
+
+// Q.14 How do you check if a string ends with a specific substring? 
+
+let endWithWord = "wecode academy";
+let splitEndWithWord = endWithWord.split(" ")
+let endWord = "e"
+
+if(endWithWord.endsWith(endWord)){
+    console.log("yes");
+}
+else{
+    console.log("no"); 
+}
+
+for(let i of splitEndWithWord){
+    
+    if(i.endsWith(endWord)){
+        console.log("yes");
+    }
+    else{
+        console.log("no"); 
+    }
+}
+
+// Q.15 How can you compare two strings in JavaScript? 
+ let compareWordfirst = "sohel";
+ let compareWordsecond = "sohel";
+
+ if (compareWordfirst === compareWordsecond) {
+    console.log("match word");
+ }
+ else {
+    console.log("Not match word");
+ }
+
+//  Q.16 How can you check if a string is empty in JavaScript? 
+
+let emptyWord = "sohel khan web design";
+let emptyWordCount = 0;
+if (emptyWord.includes(" ")) {
+   console.log("yes");
+}
+else {
+   console.log("Not");
+}
+for (let i of emptyWord){
+    if (i.includes(" ")) {
+        emptyWordCount++
+     }
+}
+console.log(emptyWordCount);
+
+
+// Q.17 How do you get the character at a specific index in a string?
+
+let getCharacterWord = "hello world";
+let getCharacterCharacter = getCharacterWord.charAt(7);
+console.log(getCharacterCharacter);
+
+// Q.18 How can you reverse a string in JavaScript? 
+
+let reverseWord = "hello worlds";
+let getCharacter = "";
+for(let i = reverseWord.length - 1; i >= 0; i--){
+    getCharacter += reverseWord[i];
+}
+console.log(getCharacter);
+
+// Q.19 How do you count the occurrences of a specific character in a string? 
+
+let countCharacterWord = "lalala ji lalala";
+let countCharacter = "l";
+let countCharacterCount = 0;
+for(let i of countCharacterWord){
+    if(i === countCharacter){
+        countCharacterCount++;
+    }
+}
+console.log(countCharacterCount);
+
+// Q.20 How can you convert a string into an array of characters?
+let countCharactersecond = "How can you convert a string into an array of characters?";
+let convertCharacter = countCharactersecond.split(" ");
+console.log(convertCharacter);
+
+
+
+
+
+
+
+
+
+
+
 
