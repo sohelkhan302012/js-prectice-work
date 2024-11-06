@@ -914,7 +914,7 @@
 // }
 
 // for (let i = 1; i <= 4; i++) {
-//     let a = ""; 
+//     let a = "";
 //     for (let j = 1; j <= 4; j++) {
 //         a += "*";
 //     }
@@ -922,7 +922,7 @@
 // }
 
 // for (let i = 5; i >= 1; i--) {
-//     let a = ""; 
+//     let a = "";
 //         for (let j = 1; j <= i; j++) {
 //             a += j;
 //         }
@@ -930,7 +930,7 @@
 //     }
 
 // for (let i = 5; i >= 1; i--) {
-//     let a = ""; 
+//     let a = "";
 //     for (let j = i; j >= 1; j--) {
 //         a += j;
 //     }
@@ -938,106 +938,102 @@
 // }
 
 // for (let i = 1; i <= 5; i++) {
-//     let a = ""; 
+//     let a = "";
 //     for (let j = 5; j >= i; j--) {
 //         a += j;
 //     }
 //     console.log(a);
 // }
-// for (let i = 1; i <= 5; i++) {  
-//     let a = "";                
-//     for (let j = 6 - i; j >= 1; j--) { 
+// for (let i = 1; i <= 5; i++) {
+//     let a = "";
+//     for (let j = 6 - i; j >= 1; j--) {
 //         a += j;
 //     }
-//     console.log(a);           
+//     console.log(a);
 // }
 
-// for (let i = 1; i <= 8; i++) {  
-//     let a = "";                
-//     for (let j = 1; j <= 2; j++) { 
+// for (let i = 1; i <= 8; i++) {
+//     let a = "";
+//     for (let j = 1; j <= 2; j++) {
 //         a += "$" ;
 //     }
 //   if( i % 3 == 0){
 //     console.log(" ")
-//   }   
+//   }
 //   else{
 //     console.log(a);
-    
-//   }      
+
+//   }
 // }
 
-
-
-// for (let i = 5; i >= 1; i--) {  
-//     let a = "";                
-//     for (let j = i; j >= 1; j--) { 
-//         a += "*" ;
-//     }
-//     console.log(a);  
-// }
-
-// for (let i = 1; i <= 5; i++) {  
-//     let a = "";                
-//     for (let j = 1; j <= i; j++) { 
+// for (let i = 5; i >= 1; i--) {
+//     let a = "";
+//     for (let j = i; j >= 1; j--) {
 //         a += "*" ;
 //     }
 //     console.log(a);
 // }
 
+// for (let i = 1; i <= 5; i++) {
+//     let a = "";
+//     for (let j = 1; j <= i; j++) {
+//         a += "*" ;
+//     }
+//     console.log(a);
+// }
 
-// for (let i = 10; i >= 1; i--) {  
-//     let a = "";                
-//     for (let j =  i; j >= 1; j--) { 
+// for (let i = 10; i >= 1; i--) {
+//     let a = "";
+//     for (let j =  i; j >= 1; j--) {
 //         a += j;
 //     }
-//     console.log(a);  
+//     console.log(a);
 // }
 
-// for (let i = 1; i <= 5; i++) {  
-//     let a = "";                
-//     for (let j = 1; j <= i; j++) { 
+// for (let i = 1; i <= 5; i++) {
+//     let a = "";
+//     for (let j = 1; j <= i; j++) {
 //         a += "*";
 //     }
-//     console.log(a);  
+//     console.log(a);
 // }
-// for (let i = 4; i >= 1; i--) {  
-//     let a = "";                
-//     for (let j = i; j >= 1; j--) { 
+// for (let i = 4; i >= 1; i--) {
+//     let a = "";
+//     for (let j = i; j >= 1; j--) {
 //         a += "*";
 //     }
-//     console.log(a);  
+//     console.log(a);
 // }
-// for (let i = 1; i <= 10; i++) {  
-//     let a = ""; 
-//     for (let j = 1; j <= 5 - i; j++) { 
-//         a += " "; 
-//     }               
-//     for (let j = 1; j <= i; j++) { 
+// for (let i = 1; i <= 10; i++) {
+//     let a = "";
+//     for (let j = 1; j <= 5 - i; j++) {
+//         a += " ";
+//     }
+//     for (let j = 1; j <= i; j++) {
 //         a += "*";
 //     }
 //   if(i % 2 !== 0){
-//       console.log(a);  
+//       console.log(a);
 //   }
 // }
 
 // let N = 5; // Pyramid height
 
-// for (let i = 1; i <= N; i++) {  
-//     let a = ""; 
-    
+// for (let i = 1; i <= N; i++) {
+//     let a = "";
+
 //     // Spaces ka correct calculation: N - i spaces hone chahiye har row ke liye
-//     for (let j = 1; j <= N - i; j++) { 
+//     for (let j = 1; j <= N - i; j++) {
 //         a += " "; // Add spaces before stars
-//     }               
-    
+//     }
+
 //     // Stars ka calculation: 2*i - 1 stars hone chahiye har row mein
-//     for (let j = 1; j <= (2 * i - 1); j++) { 
+//     for (let j = 1; j <= (2 * i - 1); j++) {
 //         a += "*"; // Add stars
 //     }
-  
-//     console.log(a);  
-// }
 
+//     console.log(a);
+// }
 
 // let num = "9079828177";
 // let email = "sohailkhan8107231793@gmail.com";
@@ -1054,23 +1050,20 @@
 // // console.log(a.replace("l","s").replace("s","l"));
 // console.log(a.toUpperCase());
 
-
 // for(i = 1; i <= 10; i++){
 //     str = "";
 // for(j = 10; j >= i; j--){
 //     str += i;
 // }
 // console.log(str)
-    
+
 // }
 
 // let a = "sohel";
 // console.log(a.split("").reverse().join(""));
 
-
 // let a = "hello";
 // console.log(a.charAt().toUpperCase()+ a.slice(1));
-
 
 // HeLlo -> hElLO
 // leArNjavaScript -> LEaRnJAVAsCRIPT
@@ -1081,15 +1074,14 @@
 //     for(var j = 10; j >=i; j--){
 //        if{if }
 //     }
-    
-// }
 
+// }
 
 // let name = "SoHEl KhAN";
 // finalName = "";
 //     for (let i of name) {
 //       if(i == i.toLowerCase()){
-//         finalName = finalName + i.toUpperCase(); 
+//         finalName = finalName + i.toUpperCase();
 //       }
 //       else{
 //         finalName = finalName + i.toLowerCase();
@@ -1097,8 +1089,6 @@
 // }
 // console.log(name);
 // console.log(finalName);
-
-
 
 // var a = "eteiuyye";
 // let b = a.split("").reverse().join("");
@@ -1128,8 +1118,6 @@
 // let b = a.charAt(0).toUpperCase()+a.slice(1);
 // console.log(b);
 
-
-
 // let a = "my name is sohel khan in jaipur city";
 
 // let b = a.split(" ");
@@ -1140,7 +1128,6 @@
 // }
 // console.log(c);
 
-
 // let a = "My nAme iS soHel kHan in JaiPur city";
 // let str = "";
 // for(let i of a){
@@ -1149,12 +1136,10 @@
 // }
 // else{
 // str += i.toLowerCase()}
-  
+
 // }
 // console.log(str);
 // console.log(a);
-
-
 
 // for( let i = 1; i <= 10; i++){
 //   let a = "";
@@ -1164,14 +1149,12 @@
 //   console.log(a);
 // }
 
-
-
 // let a = "javascript"
 // // let a = "sohel khan s/o imamuddin khan"
 // let c = 0;
 // let d = 0;
 // for( let i of a){
-  
+
 //   if ( i === "a" || i === "e" || i === "i" || i === "o" || i === "u"){
 //     c++
 //   }
@@ -1187,7 +1170,6 @@
 
 // console.log(b + " " +  "word");
 
-
 // let a = "hello world, javascript"
 //  let b = a.split(" ");
 //  let d = ""
@@ -1195,12 +1177,11 @@
 //  let c = i.length;
 
 //  if( i.length > d.length){
-//  d = i; 
+//  d = i;
 // }
 
 // }
 // console.log(d);
-
 
 //Array
 // let names = ["Sajid", "Arshad", "Arbaj", "Sohail", "Srk", "Sonu"];
@@ -1228,14 +1209,7 @@
 // }
 // console.log(total);
 
-
-
-
-
-
-
 // find max number
-
 
 // let name = [ 20, 50, 199, 67, 89, 507, 786,1111];
 // let maxNumber = 0;
@@ -1247,11 +1221,7 @@
 // }
 // console.log(maxNumber);
 
-
-
-
 // find min number
-
 
 // let name = [ 20, 50, 199, 67, 89, 507, 786,1111];
 // let maxNumber = 0;
@@ -1262,9 +1232,7 @@
 
 //   }
 // }
-// console.log(maxNumber);  
-
-
+// console.log(maxNumber);
 
 // find total of odd numbers
 // find total of even numbers
@@ -1285,7 +1253,6 @@
 //   }
 //  }
 //  console.log(totalNumberOdd);
- 
 
 // find total number greater than 50
 //  let name = [ 20, 50, 199, 67, 89, 507, 786,1111,45 , 49, 78];
@@ -1297,9 +1264,6 @@
 //   }
 //  }
 //  console.log(totalNumber);
-
-
-
 
 // find total number less than 50
 
@@ -1313,7 +1277,6 @@
 //  }
 //  console.log(totalNumber);
 
-
 // let name = [ 20, 50, 50, 199, 67, 89, 507, 786,1111,45 , 49, 78];
 
 //  let totalNumber = 0;
@@ -1323,7 +1286,6 @@
 //   }
 //  }
 //  console.log(totalNumber);
-
 
 // find all names greater than length 6
 
@@ -1335,7 +1297,6 @@
 //   }
 //  }
 //  console.log(name2);
- 
 
 // find sum of all numbers
 // let name = [ 20, 50, 50, 199, 67, 89, 507, 786,1111,45 , 49, 78];
@@ -1345,9 +1306,6 @@
 // }
 // console.log(totalNumber);
 
-
-
-
 // find mul of all numbers
 
 // let name = [ 1,2,3,4,5,6,7,8,9];
@@ -1356,7 +1314,6 @@
 //   totalNumber*= i
 // }
 // console.log(totalNumber);
-
 
 // find series is maintaining same order or not.
 
@@ -1375,204 +1332,487 @@
 //   console.log(a[2] - a[1]);
 // }
 
+// // Q.1  How do you find the length of a string in JavaScript?
 
+// let word = "javascript";
+// let  wordLenght = word.length;
+// console.log(wordLenght);
 
-// Q.1  How do you find the length of a string in JavaScript? 
+// // Q.2 How can you convert a string to uppercase in JavaScript?
 
-let word = "javascript";
-let  wordLenght = word.length;
-console.log(wordLenght);
+// let secondWord = "hello world";
+// let secondWrodUppercase = secondWord.toUpperCase();
+// console.log(secondWrodUppercase);
 
+// // Q.3 How can you convert a string to lowercase in JavaScript?
 
-// Q.2 How can you convert a string to uppercase in JavaScript? 
+// let thiredWord = "HELLO JAVASCRIPT";
+// let thiredWrodUppercase = thiredWord.toLowerCase();
+// console.log(thiredWrodUppercase);
 
-let secondWord = "hello world";
-let secondWrodUppercase = secondWord.toUpperCase();
-console.log(secondWrodUppercase);
+// // Q.4  How do you concatenate two strings in JavaScript?
 
+// let firstConcatenateWord = "sohel";
+// let secondConcatenateWord = "khan";
+// let finalConcatenateWord = firstConcatenateWord + " " + secondConcatenateWord;
+// console.log(finalConcatenateWord);
 
-// Q.3 How can you convert a string to lowercase in JavaScript? 
+// let finalConcatenateWord2 = "";
+//  finalConcatenateWord2 = finalConcatenateWord2.concat(firstConcatenateWord," ",secondConcatenateWord);
+// console.log(finalConcatenateWord2);
 
-let thiredWord = "HELLO JAVASCRIPT";
-let thiredWrodUppercase = thiredWord.toLowerCase();
-console.log(thiredWrodUppercase);
+// // Q.5 How do you find the index of a character in a string?
 
+// let indexWord = "jaipur is the capital of rajasthan";
 
-// Q.4  How do you concatenate two strings in JavaScript?
+// let numberOfIndexFirst = indexWord.indexOf("i");
+// let numberOfIndexLast = indexWord.lastIndexOf("i");
+// console.log(numberOfIndexFirst);
+// console.log(numberOfIndexLast);
 
-let firstConcatenateWord = "sohel";
-let secondConcatenateWord = "khan";
-let finalConcatenateWord = firstConcatenateWord + " " + secondConcatenateWord;
-console.log(finalConcatenateWord);
+// // Q.6 How do you extract a substring from a string?
 
-let finalConcatenateWord2 = "";
- finalConcatenateWord2 = finalConcatenateWord2.concat(firstConcatenateWord," ",secondConcatenateWord);
-console.log(finalConcatenateWord2);
+// let subStringWord = "I am a web designer";
+//  let firstSubString = subStringWord.substring(9);
+//  console.log(firstSubString);
 
+// //  Q.7 How can you replace a part of a string with another string?
 
-// Q.5 How do you find the index of a character in a string? 
+// let replaceWord = "my name is arbaj khan";
 
-let indexWord = "jaipur is the capital of rajasthan";
+// let repalceName = replaceWord.replace("arbaj", "sohel");
+// console.log(repalceName);
 
-let numberOfIndexFirst = indexWord.indexOf("i");
-let numberOfIndexLast = indexWord.lastIndexOf("i");
-console.log(numberOfIndexFirst);
-console.log(numberOfIndexLast);
+// // Q.8 How do you check if a string contains a specific substring?
 
-// Q.6 How do you extract a substring from a string? 
+// let checkSubstringWord = "I am a web designer";
 
-let subStringWord = "I am a web designer";
- let firstSubString = subStringWord.substring(9);
- console.log(firstSubString);
- 
-//  Q.7 How can you replace a part of a string with another string? 
+// if(checkSubstringWord.includes("gne")){
+//     console.log("Yes");
+// }
+// else{
+//     console.log("No");
 
-let replaceWord = "my name is arbaj khan";
+// }
 
-let repalceName = replaceWord.replace("arbaj", "sohel");
-console.log(repalceName); 
+// // Q.9 How can you split a string into an array of substrings?
 
-// Q.8 How do you check if a string contains a specific substring? 
+// let wordSubString = "dehli is the capital of india";
+// let splitWordArray = wordSubString.split(" ");
+// console.log(splitWordArray);
 
-let checkSubstringWord = "I am a web designer";
+// // Q.10 How do you remove whitespace from both ends of a string in JavaScript?
 
-if(checkSubstringWord.includes("gne")){
-    console.log("Yes");
+// let removeWhitespaceWord = "  hello world   ";
+// let removeWhitespaceWordTrim = removeWhitespaceWord.trim();
+// console.log(removeWhitespaceWordTrim);
+
+// // Q.11 How can you repeat a string multiple times in JavaScript?
+
+// let repeatCount ="sohel khan";
+
+// let repeatWord = repeatCount.repeat(3);
+// console.log(repeatWord);
+
+// // Q.12 How do you convert a number to a string in JavaScript?
+
+// let numberToString = 123456;
+// let numberToStringString = numberToString.toString();
+// console.log(typeof numberToStringString);
+
+// // Q.13 How do you check if a string starts with a specific substring?
+
+// let startWithWord = "wecode academy";
+// let startWord = "we"
+// if(startWithWord.startsWith(startWord)){
+//     console.log("yes");
+// }
+// else{
+//     console.log("no");
+// }
+
+// // Q.14 How do you check if a string ends with a specific substring?
+
+// let endWithWord = "wecode academy";
+// let splitEndWithWord = endWithWord.split(" ")
+// let endWord = "e"
+
+// if(endWithWord.endsWith(endWord)){
+//     console.log("yes");
+// }
+// else{
+//     console.log("no");
+// }
+
+// for(let i of splitEndWithWord){
+
+//     if(i.endsWith(endWord)){
+//         console.log("yes");
+//     }
+//     else{
+//         console.log("no");
+//     }
+// }
+
+// // Q.15 How can you compare two strings in JavaScript?
+//  let compareWordfirst = "sohel";
+//  let compareWordsecond = "sohel";
+
+//  if (compareWordfirst === compareWordsecond) {
+//     console.log("match word");
+//  }
+//  else {
+//     console.log("Not match word");
+//  }
+
+// //  Q.16 How can you check if a string is empty in JavaScript?
+
+// let emptyWord = "sohel khan web design";
+// let emptyWordCount = 0;
+// if (emptyWord.includes(" ")) {
+//    console.log("yes");
+// }
+// else {
+//    console.log("Not");
+// }
+// for (let i of emptyWord){
+//     if (i.includes(" ")) {
+//         emptyWordCount++
+//      }
+// }
+// console.log(emptyWordCount);
+
+// // Q.17 How do you get the character at a specific index in a string?
+
+// let getCharacterWord = "hello world";
+// let getCharacterCharacter = getCharacterWord.charAt(7);
+// console.log(getCharacterCharacter);
+
+// // Q.18 How can you reverse a string in JavaScript?
+
+// let reverseWord = "hello worlds";
+// let getCharacter = "";
+// for(let i = reverseWord.length - 1; i >= 0; i--){
+//     getCharacter += reverseWord[i];
+// }
+// console.log(getCharacter);
+
+// // Q.19 How do you count the occurrences of a specific character in a string?
+
+// let countCharacterWord = "lalala ji lalala";
+// let countCharacter = "l";
+// let countCharacterCount = 0;
+// for(let i of countCharacterWord){
+//     if(i === countCharacter){
+//         countCharacterCount++;
+//     }
+// }
+// console.log(countCharacterCount);
+
+// // Q.20 How can you convert a string into an array of characters?
+
+// let countCharactersecond = "How can you convert a string into an array of characters?";
+// let convertCharacter = countCharactersecond.split(" ");
+// console.log(convertCharacter);
+
+// const numbers = [1, 2, 3, 4, 5, 55,87];
+// console.log(numbers.at(6), numbers[6]);
+// numbers.push(6, 7, "Wecode");
+// console.log(numbers);
+// numbers.pop();
+// console.log(numbers);
+// numbers.unshift(10, 20, 30);
+// console.log(numbers);
+// numbers.shift();
+// console.log(numbers);
+// console.log(numbers.toString());
+// console.log(numbers.join("---"));
+// const arr1 = [1, 2, 3];
+// const arr2 = [4, 5, 6];
+// console.log(arr1.concat(arr2, [8, 9]));
+// console.log(arr2.reverse());
+// console.log(numbers.at(0), numbers[0]);
+// console.log(numbers.at(-1), numbers[numbers.length - 1]);
+// const array = [2, 1, 5, 4, 3];
+// console.log(array.sort());
+// const names = ["Sajid", "Deepak", "Arbaj", "Naim", "Yash"];
+// console.log(names.sort());
+// const arr3 = [10, 1, 21, 2, 40, 25, 7, 3, 111, 12];
+// console.log(arr3.sort());
+
+// 1. Given an array ["apple", "banana", "cherry"], use push to add "date" to the array.
+
+// let fruitsName = ["apple", "banana", "cherry"];
+// fruitsName.push("date");
+// console.log(fruitsName);
+
+// // 2. Write a function that removes the last element of an array using pop and returns the modified array.
+// function weekDay (a){
+//     a.pop()
+//    return(a)
+// }
+// let weekDay1 = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
+// weekDay(weekDay1)
+// console.log(weekDay1);
+
+// // 3. Create an array ["a", "b", "c"] and use unshift to add "z" at the beginning of the array.
+
+// let lettetName = ["A", "B", "C"];
+// lettetName.unshift("Z");
+// console.log(lettetName);
+
+// // 4. Use shift to remove the first element from an array ["lion", "tiger", "cheetah"] and return the modified array.
+
+// function animalNameFun (a){
+//     a.shift();
+//     return(a)
+// }
+// let animalName = ["lion", "tiger", "cheetah"];
+// animalNameFun(animalName)
+// console.log(animalName);
+
+// // iven an array ["car", "bus", "train"], convert the array into a string using toString.
+
+// let vehicleName = ["car", "bus", "train"];
+// let vehicaleStringName = vehicleName.toString();
+// console.log(vehicaleStringName);
+
+// // 6. Write a function that joins an array ["John", "Doe", "Smith"] with a space between each name using join.
+
+// let peopleName = ["John", "Doe", "Smith"];
+// let joinName = peopleName.join(" ");
+// console.log(joinName);
+
+// // 7. Concatenate two arrays ["red", "green"] and ["blue", "yellow"] using concat.
+
+// let concatenateName1 = ["red","green"]
+// let concatenateName2 = ["blue","yellow"]
+// let concatenateName3 = concatenateName1.concat(concatenateName2);
+// console.log(concatenateName3);
+
+// // 8. Sort an array of strings ["dog", "cat", "bird"] in alphabetical order using sort.
+
+// let petName = ["dog", "cat", "bird"];
+// petName.sort();
+// console.log(petName);
+
+// // 9. Write a function to reverse the order of an array ["sun", "moon", "stars"] using reverse.
+
+// let reverseName = ["sun", "moon", "stars"];
+// reverseName.reverse();
+// console.log(reverseName);
+
+// // 10. Access the second-to-last element of an array ["pen", "pencil", "eraser"] using the at method.
+
+// let findIndex = ["pen", "pencil", "eraser"];
+// let findName = findIndex.at(-2);
+// console.log(findName);
+
+// // 11. Write a function that takes an array of strings and a string to add. If the string starts with a vowel, use unshift to add it at the beginning of the array, otherwise use push to add it at the end.
+
+// let addStringVowel = ["my","name"];
+// let addStringName = "arbaj";
+// let vowel = "aeiou"
+// // if(addStringName.charAt(0).toLowerCase() === "a" || addStringName.charAt(0).toLowerCase() === "e" || addStringName.charAt(0).toLowerCase() === "i"|| addStringName.charAt(0).toLowerCase() === "o" || addStringName.charAt(0).toLowerCase() === "u" ){
+// //     addStringVowel.unshift(addStringName);
+// // }
+// // else {
+// //     addStringVowel.push(addStringName);
+// // }
+// if(vowel.includes(addStringName.charAt(0).toLowerCase())){
+//     addStringVowel.unshift(addStringName);
+// }
+// else {
+//     addStringVowel.push(addStringName);
+// }
+
+// console.log(addStringVowel);
+
+// // 12. Use pop, shift, and unshift methods to manipulate an array ["x", "y", "z"] to have the result ["y", "x", "a"].
+
+// let letterList = ["x", "y", "z"];
+// letterList.pop();
+// letterList.pop();
+// letterList.unshift("y");
+// letterList.push("a");
+
+// console.log(letterList);
+
+// // 13. Write a function that uses sort to sort an array of strings ignoring case sensitivity. Test it with ["Banana", "apple", "Cherry"].
+
+//                let fruitNameSort = ["Banana", "apple", "Cherry"];
+
+//                fruitNameSort.sort((a, b) => {
+//                    return a.toLowerCase().localeCompare(b.toLowerCase());
+//                });
+//                console.log(fruitNameSort);
+
+// // 14. Use concat to merge two arrays and then use sort and reverse to return the concatenated array in descending alphabetical order.
+
+// let firstConcatenateWords1 = ["a", "m","q"]
+// let firstConcatenateWords2 = ["d", "k","v"]
+// let concatenateWords = firstConcatenateWords1.concat(firstConcatenateWords2);
+// concatenateWords.sort();
+// concatenateWords.reverse();
+// console.log(concatenateWords);
+
+// // 15. Given an array ["one", "two", "three", "four"], write a function that removes the first and last elements and returns the remaining elements as a string using join.
+// let numberList = ["one", "two", "three", "four"];
+// numberList.pop();
+// numberList.shift();
+// let number_c = numberList.join(" ");
+// console.log(number_c);
+
+// // 16 Convert an array of strings ["this", "is", "a", "test"] into a single string with each word separated by a dash - using join.
+
+// let joinString = ["this", "is", "a", "test"];
+// let join_c = joinString.join("-");
+// console.log(join_c);
+
+// // 17. Write a function that accepts two arrays and returns a new array by concatenating both using concat.
+// let lastResult = "";
+// function concat (a, b) {
+//       return(lastResult = a.concat(b))
+// }
+// let ar1 = [1,2,3];
+// let ar2 = [4,5,6];
+// concat(ar1, ar2)
+// console.log(lastResult);
+
+// // 18. Create an array ["e", "d", "c", "b", "a"], reverse the array using reverse, then sort it in alphabetical order using sort
+//  let apfabet = ["e", "d", "c", "b", "a"];
+//  apfabet.reverse();
+//  apfabet.sort();
+//  console.log(apfabet);
+
+// //  19. Access the third element from the end of an array ["apple", "banana", "cherry", "date", "elderberry"] using at.
+
+// let fruitArrey = ["apple", "banana", "cherry", "date", "elderberry"];
+// let thirdFromEnd = fruitArrey.at(-3);
+// console.log(thirdFromEnd);
+
+// // 20. Use push, pop, shift, and unshift to manipulate the array ["one", "two", "three"] into ["zero", "one", "two", "new"].
+
+// let arreryUpdateChange1 = ["one", "two", "three"];
+// arreryUpdateChange1.pop();
+//  arreryUpdateChange1.push("new");
+//  arreryUpdateChange1.unshift("zero");
+//  console.log(arreryUpdateChange1);
+
+// let x = 200;
+// let y = 150;
+
+// function calculation( a , b){
+//    return(a + b);
+// }
+// function Multiply( a , b){
+//    return(a * b);
+// }
+// function Minus( a , b){
+//    return(a - b);
+// }
+// function sumNumber(Number){
+//     return (Number(x,y))
+// };
+// console.log(sumNumber( calculation))
+// console.log(sumNumber( Multiply))
+// console.log(sumNumber( Minus))
+
+// function number (arr1){
+
+//     let sumNum = 0;
+//     for(let i = 0; i <arr.length; i++){
+
+//        if(arr1[i] % 5 === 0 && arr1[i] % 3 === 0){
+//       sumNum += arr1[i];
+//     }
+// }
+// return(sumNum);
+// }
+
+// let arr = [15, 20, 45, 46, 90, 120];
+// console.log(number(arr));
+
+// function layla (a,b,fn){
+//     return (a+b+fn);
+// }
+
+// console.log(layla(10,20,20))
+
+let arr = [
+  "sohel khan",
+  "arbaj khan",
+  "arshad khan",
+  "sajid ali khan",
+  "yasir khan",
+  "imamuddin khan",
+];
+let a = "";
+function fit(name) {
+  return name.length > 10;
 }
-else{
-    console.log("No");
-    
+a = arr.filter(fit);
+console.log(a);
+
+let b = [1, 4, 7, 9, 8, 3];
+
+function mulit(num) {
+  return num * 10;
 }
 
-// Q.9 How can you split a string into an array of substrings? 
-
-let wordSubString = "dehli is the capital of india";
-let splitWordArray = wordSubString.split(" ");
-console.log(splitWordArray);
-
-// Q.10 How do you remove whitespace from both ends of a string in JavaScript? 
-
-let removeWhitespaceWord = "  hello world   ";
-let removeWhitespaceWordTrim = removeWhitespaceWord.trim();
-console.log(removeWhitespaceWordTrim);
-
-// Q.11 How can you repeat a string multiple times in JavaScript? 
-
-let repeatCount ="sohel khan";
-
-let repeatWord = repeatCount.repeat(3);
-console.log(repeatWord);
-
-// Q.12 How do you convert a number to a string in JavaScript? 
-
-let numberToString = 123456;
-let numberToStringString = numberToString.toString();
-console.log(typeof numberToStringString);
-
-// Q.13 How do you check if a string starts with a specific substring?
-
-let startWithWord = "wecode academy";
-let startWord = "we"
-if(startWithWord.startsWith(startWord)){
-    console.log("yes");
-}
-else{
-    console.log("no"); 
+function find(name2) {
+  return name2 > 50;
 }
 
-// Q.14 How do you check if a string ends with a specific substring? 
+b = b.map(mulit).filter(find);
+console.log(b);
 
-let endWithWord = "wecode academy";
-let splitEndWithWord = endWithWord.split(" ")
-let endWord = "e"
-
-if(endWithWord.endsWith(endWord)){
-    console.log("yes");
+let arrAllNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+let v = ""
+function arrfind(num){
+   return num % 2 === 0;
 }
-else{
-    console.log("no"); 
+v = arrAllNum.filter(arrfind)
+console.log(v);
+
+
+let arr3 = ["ali", "sohel", "yasir", "rahim", "ahmed"]
+let storeValue = ""
+function findName(name){
+  return name + " - khan"
 }
+storeValue = arr3.map(findName)
+console.log(storeValue)
 
-for(let i of splitEndWithWord){
-    
-    if(i.endsWith(endWord)){
-        console.log("yes");
-    }
-    else{
-        console.log("no"); 
-    }
+
+let arr4 = [1, 2, 3, 4, 5]
+
+function doubleValue(num){
+  if(num % 2 == 1){
+    return num * num
+  }
 }
+let storeValue2 = arr4.map(doubleValue)
+console.log(storeValue2)
 
-// Q.15 How can you compare two strings in JavaScript? 
- let compareWordfirst = "sohel";
- let compareWordsecond = "sohel";
+let arr5 = ["javascript", "css", "html", "react", "nodejs"]
 
- if (compareWordfirst === compareWordsecond) {
-    console.log("match word");
- }
- else {
-    console.log("Not match word");
- }
-
-//  Q.16 How can you check if a string is empty in JavaScript? 
-
-let emptyWord = "sohel khan web design";
-let emptyWordCount = 0;
-if (emptyWord.includes(" ")) {
-   console.log("yes");
+function reverseString(str){
+  return str.length > 8
 }
-else {
-   console.log("Not");
-}
-for (let i of emptyWord){
-    if (i.includes(" ")) {
-        emptyWordCount++
-     }
-}
-console.log(emptyWordCount);
+let storeValue3 = arr5.filter(reverseString)
+console.log(storeValue3);
 
+let arr6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// Q.17 How do you get the character at a specific index in a string?
+let storeValue4 = arr6.reduce((sum, num) => {
+  if (num % 2 === 0) {
+    return sum + num;
+  }
+  return sum;
+}, 0);
 
-let getCharacterWord = "hello world";
-let getCharacterCharacter = getCharacterWord.charAt(7);
-console.log(getCharacterCharacter);
-
-// Q.18 How can you reverse a string in JavaScript? 
-
-let reverseWord = "hello worlds";
-let getCharacter = "";
-for(let i = reverseWord.length - 1; i >= 0; i--){
-    getCharacter += reverseWord[i];
-}
-console.log(getCharacter);
-
-// Q.19 How do you count the occurrences of a specific character in a string? 
-
-let countCharacterWord = "lalala ji lalala";
-let countCharacter = "l";
-let countCharacterCount = 0;
-for(let i of countCharacterWord){
-    if(i === countCharacter){
-        countCharacterCount++;
-    }
-}
-console.log(countCharacterCount);
-
-// Q.20 How can you convert a string into an array of characters?
-
-let countCharactersecond = "How can you convert a string into an array of characters?";
-let convertCharacter = countCharactersecond.split(" ");
-console.log(convertCharacter);
-
-
-
-
-
-
-
-
-
+console.log(storeValue4); 
 
 
 
