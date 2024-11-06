@@ -1739,80 +1739,80 @@
 
 // console.log(layla(10,20,20))
 
-let arr = [
-  "sohel khan",
-  "arbaj khan",
-  "arshad khan",
-  "sajid ali khan",
-  "yasir khan",
-  "imamuddin khan",
-];
-let a = "";
-function fit(name) {
-  return name.length > 10;
-}
-a = arr.filter(fit);
-console.log(a);
+// let arr = [
+//   "sohel khan",
+//   "arbaj khan",
+//   "arshad khan",
+//   "sajid ali khan",
+//   "yasir khan",
+//   "imamuddin khan",
+// ];
+// let a = "";
+// function fit(name) {
+//   return name.length > 10;
+// }
+// a = arr.filter(fit);
+// console.log(a);
 
-let b = [1, 4, 7, 9, 8, 3];
+// let b = [1, 4, 7, 9, 8, 3];
 
-function mulit(num) {
-  return num * 10;
-}
+// function mulit(num) {
+//   return num * 10;
+// }
 
-function find(name2) {
-  return name2 > 50;
-}
+// function find(name2) {
+//   return name2 > 50;
+// }
 
-b = b.map(mulit).filter(find);
-console.log(b);
+// b = b.map(mulit).filter(find);
+// console.log(b);
 
-let arrAllNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-let v = ""
-function arrfind(num){
-   return num % 2 === 0;
-}
-v = arrAllNum.filter(arrfind)
-console.log(v);
-
-
-let arr3 = ["ali", "sohel", "yasir", "rahim", "ahmed"]
-let storeValue = ""
-function findName(name){
-  return name + " - khan"
-}
-storeValue = arr3.map(findName)
-console.log(storeValue)
+// let arrAllNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+// let v = ""
+// function arrfind(num){
+//    return num % 2 === 0;
+// }
+// v = arrAllNum.filter(arrfind)
+// console.log(v);
 
 
-let arr4 = [1, 2, 3, 4, 5]
+// let arr3 = ["ali", "sohel", "yasir", "rahim", "ahmed"]
+// let storeValue = ""
+// function findName(name){
+//   return name + " - khan"
+// }
+// storeValue = arr3.map(findName)
+// console.log(storeValue)
 
-function doubleValue(num){
-  if(num % 2 == 1){
-    return num * num
-  }
-}
-let storeValue2 = arr4.map(doubleValue)
-console.log(storeValue2)
 
-let arr5 = ["javascript", "css", "html", "react", "nodejs"]
+// let arr4 = [1, 2, 3, 4, 5]
 
-function reverseString(str){
-  return str.length > 8
-}
-let storeValue3 = arr5.filter(reverseString)
-console.log(storeValue3);
+// function doubleValue(num){
+//   if(num % 2 == 1){
+//     return num * num
+//   }
+// }
+// let storeValue2 = arr4.map(doubleValue)
+// console.log(storeValue2)
 
-let arr6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let arr5 = ["javascript", "css", "html", "react", "nodejs"]
 
-let storeValue4 = arr6.reduce((sum, num) => {
-  if (num % 2 === 0) {
-    return sum + num;
-  }
-  return sum;
-}, 0);
+// function reverseString(str){
+//   return str.length > 8
+// }
+// let storeValue3 = arr5.filter(reverseString)
+// console.log(storeValue3);
 
-console.log(storeValue4); 
+// let arr6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// let storeValue4 = arr6.reduce((sum, num) => {
+//   if (num % 2 === 0) {
+//     return sum + num;
+//   }
+//   return sum;
+// }, 0);
+
+// console.log(storeValue4); 
 
 
 
