@@ -1816,3 +1816,107 @@
 
 
 
+
+// let arr1 = ["sohel","arbaj","harimohan",[1,2,3,4,5]];
+// console.log(arr1[1]);
+
+// let arr2 = ["sohel","arbaj","harimohan","jaipur","jhotwara","malarna","kota","jhodpur"];
+// console.log(arr2[1].length);
+// console.log(arr2.length);
+
+// for(let i of arr2){
+//   console.log(i);
+// }
+
+// arr2.forEach((a) =>{
+// console.log(a)
+// })
+
+// console.log(arr1.push(arr2));
+// console.log(arr1.push("rajasthan"));
+// console.log(arr1[4][2]);
+// console.log(arr1[5]);
+// console.log(arr2.splice(1,1));
+// console.log(arr2.splice(5,0,"kolkata"));
+// console.log(arr2.splice(1,1,"india"));
+// console.log(arr1[4][1]);
+// console.log(arr2);
+// console.log(arr1[4][2]);
+
+// console.log("Sohel sohel khan".startsWith("Soh"));
+// console.log("Sohel sohel khan".valueOf());
+// console.log("Hello123".match(/\d+/));
+
+
+// let str = "Äpfel";
+// console.log(str.normalize("NFD")); // Output: 'Äpfel'
+
+// let arr = [1, 2, 3, 4];
+// let result = arr.slice(1, 3); 
+
+// console.log(result);
+
+
+// let arr = [1, 2, 1, 1, 6, 7, 1,32];
+// let result = arr.findIndex(item => item > 10); // Output: 2
+
+
+// let arr = [1, 2, 4,5,7,8];
+// let result = arr.some(item => item > 10); // Output: true
+
+
+
+// let arr = [1, 2, 3];
+// let result = arr.every(item => item > 2); // Output: true
+// console.log(result);
+
+
+
+
+// let firstSet = new Set([1,2,3,2,3,4,2,1,2,3,4,7,5,6,4,3,2,1])
+
+// firstSet.add(10)
+// firstSet.add(12)
+
+// firstSet.delete(12)
+// firstSet.forEach(function(sajid){
+//     console.log(sajid + 2);
+// });
+// console.log(firstSet.has(10));
+
+
+// console.log(firstSet);
+
+
+
+
+// let arr3 = [1,-20,2,3,75,4,5,6 ,6565]
+
+// let ans = arr3.reduce(function(max, next){
+//    if(max > next){
+//     return max
+//    }
+//    return next
+// })
+// let ans = arr3.reduce(function(max, next){
+//     if(max < next){
+//      return max
+//     }
+//     return next
+//  })
+// let ans = arr3.reduce(function(max, next){
+//   return (max + next)
+  
+// }, 0)
+
+
+// console.log(ans);
+
+
+
+
+
+
+
+
+
