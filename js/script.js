@@ -1913,6 +1913,432 @@
 // console.log(ans);
 
 
+// let numbers = [1, 2, 3, 3, 4, 5, 5, 6];
+// // let uniqueSum = [...new Set(numbers)].reduce((acc, num) => acc + num, 0);
+// let uniqueSum = [...new Set(numbers)].reduce(function (first, second){
+//     return first + second
+// });
+
+// console.log(uniqueSum);
+
+// let items = [2, 4, 4, 6, 8, 10, 20, 10];
+// let uniqueEvenProduct = Array.from(new Set(items)).reduce((acc, num) => {
+    
+//     console.log(acc,num);
+//     if (num % 2 === 0) {
+//         return acc * num;
+//     }
+//     return acc;
+// }, 1);
+
+// console.log(uniqueEvenProduct);
+
+
+// Example usage
+// function sortStringsByLength(arr) {
+//     return arr.sort((a, b) => a.length - b.length);
+    
+// }
+
+// let strings = ["apple", "banana", "cherry", "date"];
+// console.log(sortStringsByLength(strings)); // Output: ["date", "apple", "cherry", "banana"]
+
+
+
+// Example string : 'the quick brown fox'
+// Expected Output : 'The Quick Brown Fox'
+
+
+// let str = "the quick brown fox";
+// for( let i of str.split(" ")){
+//    i.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+       
+//    console.log(i);
+//     }
+
+    
+// let str = "the quick brown fox";
+// let str2 = str.split(" ")
+// let result = "";
+// for( let i of str2){
+//     result += i.charAt(0).toUpperCase()+ i.slice(1) + " "
+    
+// }
+// console.log(result.trimEnd());
+
+// let str = "thequickbrownfoxjumpsovexxrthelazydogg";
+// let result = "";
+// for (let i of str) {
+//     if (!result.includes(i)) {
+//         result += i;
+//     }
+// }
+// console.log(result); 
+
+
+// function validateForm() {
+//     var firstName = document.getElementById("firstName").value;
+//     var lastName = document.getElementById("lastName").value;
+//     var email = document.getElementById("email").value;
+//     var phone = document.getElementById("phone").value;
+//     var dob = document.getElementById("dob").value;
+//     var password = document.getElementById("password").value;
+//     var confirmPassword = document.getElementById("confirmPassword").value;
+  
+//     // Check if the passwords match
+//     if (password !== confirmPassword) {
+//       alert("Passwords do not match!");
+//       return false;
+//     }
+  
+//     // Validate phone number (10 digits)
+//     var phonePattern = /^[0-9]{10}$/;
+//     if (!phonePattern.test(phone)) {
+//       alert("Please enter a valid 10-digit phone number.");
+//       return false;
+//     }
+  
+//     // Check for empty fields
+//     if (firstName === "" || lastName === "" || email === "" || phone === "" || dob === "" || password === "" || confirmPassword === "") {
+//       alert("Please fill in all required fields.");
+//       return false;
+//     }
+  
+//     // If everything is fine, return true
+//     alert("Form submitted successfully!");
+//     return true;
+//   }
+
+
+// Create an array with three elements and print out the second element.
+let arr1 = ['sohel','arbaj','shahid']
+console.log(arr1[1]);
+
+
+// Create an array with five elements and print out the length of the array.
+
+let arr2 = ['sohel','arbaj','shahid','jakir','muzid']
+console.log(arr2.length);
+
+
+// Create an array with four elements and print out each element using a for loop
+ let arr3 = ['sohel','arbaj','shahid','jakir'];
+ 
+ for (let i of arr3){
+    console.log(i);
+ }
+
+//  Create an array with six elements and print out each element using a forEach loop.
+
+  let arr4 = [1,2,3,4,5,6];
+
+  arr4.forEach(element => {
+    console.log(element);
+    
+  });
+
+
+//   Create an array with three elements and add a fourth element to the end of the array.
+let arr5 = ["sohel","khan","jaipur"];
+arr5.push("jhotwara");
+console.log(arr5);
+
+// Create an array with four elements and remove the second element.
+let arr6 =["a","b","c","d"]
+arr6.splice(1,1);
+console.log(arr6);
+
+// Create an array with five elements and remove the last element.
+
+let arr7 = ['jhotwara','vaishali','mansarover','sanganer'];
+arr7.pop();
+console.log(arr7);
+
+// Create an array with three elements and check if the array includes a specific value.
+
+let arr8 = ["sohel","khan","jaipur"]
+console.log(arr8.includes("khan"));
+console.log(arr8.includes("jakir"));
+
+// Create an array with five elements and sort the array in ascending order.
+let arr9 = ["v","f","a","c","b"]
+arr9.sort();
+console.log(arr9);
+
+let arr10 = [1,11,2,3,29,4]
+arr10.sort( (a,b) => {
+    return a - b
+});
+console.log(arr10);
+
+
+// Create an array with five elements and sort the array in descending order.
+let arr11 = [1,11,2,3,29,4]
+arr11.sort((a,b) => {
+    return b - a
+});
+console.log(arr11);
+
+// Create two arrays, concatenate them and print out the resulting array.
+
+let arr12 = ["sohel","khan"];
+let arr13 = ["jakir","khan"];
+let arr14 = arr12.concat(arr13);
+console.log(arr14);
+
+
+// Create an array with three elements and convert it to a string.
+
+let arr15 = ["sohel","khan","jaipur"];
+console.log(arr15.toString(" "));
+
+// Create an array with four elements and reverse the order of the elements.
+ let arr16 = [1,2,3,4]
+
+arr16.reverse();
+console.log(arr16);
+
+// Create an array with five elements and find the index of a specific value
+ let arr17 = ["sohel","khan","malarna","doonger"];
+ console.log(arr17.indexOf("doonger"));
+ console.log(arr17.at(1));
+ 
+//  Create an array with six elements and slice the array to create a new array with the first three elements.
+
+let arr18 = ["sohel","khan","malarna","doonger", "jhotwara", "vaishali"];
+ let arr19 = arr18.slice(0,3);
+ console.log(arr18);
+ console.log(arr19);
+
+//  Create an array with six elements and use the map method to double each element.
+let arr20 = [1,2,3,4,5,6];
+let arr21 = arr20.map(function(double) {
+    return double * 2
+})
+console.log(arr21);
+
+// Create an array with four elements and use the while loop to calculate the sum of all elements.
+let arr22 = [1,2,3,4,5,6,7,8,9,10]
+ let sum = 0;
+ for ( let i of arr22){
+    sum +=i
+ }
+ console.log(sum);
+ 
+//  Create an array with five elements and use the filter method to return only the even numbers.
+let arr23 = [1,2,3,4,5,6,7,8];
+
+let arr24 = arr23.filter((even) =>{
+    return even % 2 === 0
+})
+console.log(arr24);
+
+
+// Create an array with three elements and use the join method to concatenate the elements with a dash (-) separator.
+
+let arr25 = ["sohel","khan","jaipur"];
+let str1 = arr25.join("-");
+console.log(str1);
+
+
+// Create two arrays with three elements each and use the concat method to combine them into a new array.
+
+let arr26 = ["sohel","khan","sheikh"];
+let arr27 = ["jhotwara","jaipur","rajathan"];
+let arr28 = arr26.concat(arr27);
+console.log(arr28);
+
+
+// Create an array called fruits that contains the following elements: "apple", "banana", "orange". Now check if "orange" is in the fruits array.
+ let arr29 = ["apple","banana","orange"];
+ console.log(arr29.includes("orange"))
+
+//  Given an array of numbers, write a function that returns the sum of all the even numbers in the array.
+ let arr30 = [1,2,3,4,5,6,7,8,9]
+ let arr31 = 0 ;
+ arr30.filter( (even) => {
+    if( even % 2 === 0){
+return arr31 += even
+    }
+})
+console.log(arr31);
+
+// Given two arrays of numbers, write a function that returns a new array that contains only the unique elements from both arrays.
+let arr32 = [1,2,3,4,5,6];
+let arr33 = [2,3,6,4,10,13];
+
+let arr34 = arr32.concat(arr33);
+function table (bothnumber){
+    return [...new Set(bothnumber)];
+}
+console.log(table(arr34))
+
+
+// Given an array of strings, write a function that returns the longest string in the array.
+
+let arr35 = ["apple","javascript","malarana","rajasthan","shrimahaveerji","kota"];
+
+let arr36 = arr35.reduce((stringlong1,stringlong2) => {
+    if (stringlong1.length > stringlong2.length) {
+        return stringlong1
+    }
+    return stringlong2
+})
+console.log(arr36);
+
+// Write a function that takes an array of numbers and returns the largest number in the array.
+let arr37 = [1,123,1201,7579005,2874982,709303374];
+
+let arr38 = arr37.reduce((stringlong1,stringlong2) => {
+    if (stringlong1 > stringlong2) {
+        return stringlong1
+    }
+    return stringlong2
+})
+console.log(arr38);
+
+
+function findLargestNumber(arr) {
+    let largest = arr[0]; // Start with the first element as the largest
+    
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            largest = arr[i]; // Update largest if current element is greater
+            console.log(largest);
+      }
+    }
+  
+    return largest;
+  }
+  
+  // Test the function
+  let arr = [1, 123, 1201, 95095030900, 2874982, 709303374];
+  console.log(findLargestNumber(arr)); // Output: 95095030900
+  
+
+  let arr39 = ["apple","javascript","malarana","rajasthan","shrimahaveerji","kota"]
+
+function findLargestNumber(arr) {
+    let largest = arr[0];
+    for( let i = 1 ; i < arr.length;i++){
+        if(arr[i].length > largest.length){
+             largest = arr[i]
+        }
+    }
+    return largest
+
+}
+console.log(findLargestNumber(arr39));
+
+// Write a function that takes an array of numbers and returns a new array that only contains the even numbers from the original array.
+let arr40 = [1,2,3,4,5,6,7,8,9,3,3,2,333,44,5,3,2,4,5,2,1,2,44,4123,2,3,4,5,5,33445,23553,]
+
+
+let arr41 = arr40.filter((even) => {
+return  even % 2 !== 0
+});
+
+ 
+console.log(arr41.sort((a,b) => {
+    return a - b
+}));
+
+// Write a function that takes an array of strings and returns a new array that only contains strings with more than 5 characters.
+
+let arr42 = ["apple","banana","orange","mango","grapefruit","kiwi","avocado","pineapple","watermelon","pear"]
+
+let arr43 = arr42.filter((string) => {
+    return string.length > 9
+});
+console.log(arr43);
+
+// Write a function that takes two arrays of numbers and returns a new array that contains the intersection of the two arrays (i.e. only the numbers that appear in both arrays).
+
+let arr44 = [1,2,3,4,5,6,7,8,9,3,3,2,333,44,5,3,2,4,5,2,1,2,44,4123,2,3,4,5,5,33445,23553,];
+let arr45 = [2,999,768,887,987,678,564,345,234,12,12,11,24,3,2,45,6,7,888];
+let arr48 = arr44.filter((num) => arr45.includes(num));
+console.log(arr48);
+
+// Write a function that takes an array of numbers and returns a new array where each element is the square of the original element
+
+let arr49 = [1,2,3,4,5,6,]
+let arr50 = arr49.map((square)=>{
+    return square * square })
+console.log(arr50);
+
+// Write a function that takes an array of numbers and returns the average of all the numbers in the array.
+
+let arr51 = [1,2,3,4,5,6,7,8]
+function sumEffect (square){
+    
+     let sum = square.reduce((a,b) => a + b, 0);
+     let sum2  = sum / arr51.length;
+     return sum2;
+}
+console.log(sumEffect(arr51));
+
+// Write a function that takes an array of numbers and returns a new array that only contains numbers that are greater than 5. Use filter function
+ let arr52 = [1,2,3,4,5,68,7934290,80924,90204,95905,192850923,9250,2502582,4554,]
+
+ let arr53 = arr52.filter((grater5)=>{
+    if(String(grater5).length > 5) {
+        return grater5
+    }});
+
+ console.log( arr53 );
+ 
+//  Write a function that takes an array of numbers and returns a new array where each element is the original element plus 1. use map function
+
+let arr54 = [1,2,3,4,5,6,7,8]
+let arr55 = arr54.map((plus)=>{
+    return plus + 1
+})
+
+console.log(arr55);
+
+// Write a function that takes an array of numbers and returns a new array that contains only the unique numbers using reduce.
+function getUniqueNumbers(arr) {
+    return arr.reduce((uniqueNumbers, num) => {
+        // Check if num is already in uniqueNumbers array
+        if (!uniqueNumbers.includes(num)) {
+            uniqueNumbers.push(num);
+        }
+        return uniqueNumbers;
+    }, []);  // Initialize the accumulator as an empty array
+}
+
+let arr111 = [1, 2, 3, 4, 5, 1, 2, 3, 6, 7, 8, 4, 5];
+console.log(getUniqueNumbers(arr111));  // Output: [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
