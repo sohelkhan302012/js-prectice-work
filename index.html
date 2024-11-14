@@ -5,40 +5,308 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Example</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <form onsubmit="return validatePhoneNumber()">
-      <label for="phone">Phone Number:</label>
-      <input
-        type="tel"
-        id="phone"
-        name="phone"
-        maxlength="10"
-        pattern="[0-9]{10}"
-        oninput="this.value = this.value.replace(/[^0-9]/g, '')"
-      />
-      <span id="errorPhone" style="color: red;"></span> <!-- Error message will appear here -->
-      <br>
-      <input type="submit" value="Submit">
+    <form action="" class="py-5" onsubmit="return ValidityState()">
+      <div class="my-2 position-relative">
+        <label for="fullName">Full Name</label>
+        <span id="errorFullName" class="error"></span>
+        <input
+          type="text"
+          id="fullName"
+          class="form-control"
+          oninput="this.value = this.value.replace(/[^A-Za-z ]/g,'')"
+        />
+      </div>
+      <div class="my-2 position-relative">
+        <label for="email">Email</label>
+        <span id="errorEmail" class="error"></span>
+
+        <input type="email" id="email" class="input" />
+      </div>
+      <div class="my-2 position-relative">
+        <label for="tel">Phone</label>
+        <span id="errorPhone" class="error"></span>
+
+        <input
+          type="tel"
+          id="tel"
+          class="form-control"
+          maxlength="10"
+          minlength="10"
+          oninput="this.value = this.value.replace(/[^0-9]/g,'')"
+        />
+      </div>
+      <div class="my-2 position-relative">
+        <label for="userId">User id</label>
+        <span id="errorUserId" class="error"></span>
+
+        <input
+          type="text"
+          id="userId"
+          class="form-control"
+          maxlength="8"
+          oninput="this.value = this.value.replace(/[^A-Za-z0-9@$]/g,'')"
+        />
+      </div>
+      <div class="my-2 position-relative">
+        <label for="password">Password</label>
+        <span id="errorPassword" class="error"></span>
+
+        <input
+          type="password"
+          id="password"
+          class="form-control"
+          minlength="8"
+          maxlength="12"
+          oninput="this.value = this.value.replace(/[^A-Za-z0-9@$_*&%]/g,'')"
+        />
+      </div>
+      <div class="my-2 position-relative">
+        <label for="conformPassword">Confirm Password</label>
+        <span id="errorConfirmPassword" class="error"></span>
+
+        <input
+          type="password"
+          id="conformPassword"
+          class="form-control"
+          minlength="8"
+          maxlength="12"
+          oninput="this.value = this.value.replace(/[^A-Za-z0-9@$_*&%]/g,'')"
+        />
+      </div>
+      <div class="my-2 position-relative">
+        <label for="dob">Date of birth</label>
+        <span id="errorDOB" class="error"></span>
+
+        <input type="date" id="dob" class="form-control" />
+      </div>
+      <div class="my-3 position-relative">
+        <label for="gender">Gender</label>
+        <span id="errorGender" class="error"></span>
+
+        <input type="radio" class="input d-inline-block w-auto" name="gender" />
+        male
+        <input type="radio" class="input d-inline-block w-auto" name="gender" />
+        female
+        <input type="radio" class="input d-inline-block w-auto" name="gender" />
+        other
+      </div>
+      <div class="my-3 position-relative">
+        <label for="plot">plot number</label>
+        <span id="errorPlot" class="error"></span>
+
+        <input
+          type="text"
+          id="plot"
+          class="form-control"
+          minlength="2"
+          oninput="this.value = this.value.replace(/[^A-Za-z0-9]/g,'')"
+        />
+      </div>
+      <div class="my-3 position-relative">
+        <label for="area">Loclity/area/city/village Name</label>
+        <span id="errorArea" class="error"></span>
+
+        <input
+          type="text"
+          id="area"
+          class="form-control"
+          oninput="this.value = this.value.replace(/[^A-Za-z0-9_-,]/g,'')"
+        />
+      </div>
+      <div class="d-flex gap-3 my-3 position-relative">
+        <div>
+          <label for="state">State</label>
+          <span id="errorState" class="error"></span>
+
+          <input type="search" id="state" class="form-control" oninput="filterStates()"/>
+        </div>
+        <div>
+          <label for="distict">Distict</label>
+          <span id="errorDistict" class="error"></span>
+
+          <input type="search" id="distict" class="form-control" oninput="filterDistricts()"/>
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="mt-2 d-block w-100 form-control">
+          Submit
+        </button>
+      </div>
     </form>
+
     <script>
-      function validatePhoneNumber() {
-        var phone = document.getElementById("phone").value;
-    
-        // Check if phone number is exactly 10 digits
-        if (phone.length !== 10) {
-          document.getElementById("errorPhone").innerHTML = "Please enter a valid 10-digit phone number.";
-          document.getElementById("errorPhone").style.color = "red"; // Make sure error message is red
-          return false; // Prevent form submission
+      function ValidityState() {
+        const fullName = document.getElementById("fullName").value;
+
+        const email = document.getElementById("email").value;
+        const tel = document.getElementById("tel").value;
+        const userId = document.getElementById("userId").value;
+        const password = document.getElementById("password").value;
+        const conformPassword =
+          document.getElementById("conformPassword").value;
+        const dob = document.getElementById("dob").value;
+        const gender = document.getElementsByName("gender").value;
+        const plot = document.getElementById("plot").value;
+        const area = document.getElementById("area").value;
+        const state = document.getElementById("state").value;
+        const district = document.getElementById("distict").value;
+
+        // Validate full name
+        if (fullName == "") {
+          document.getElementById("errorFullName").innerHTML =
+            "Please enter a full name";
+          document.getElementById("errorFullName").style.display = "block";
+          return false;
+        } else {
+          document.getElementById("errorFullName").style.display = "none";
         }
-    
-        // If everything is fine, show success message and allow form submission
-        document.getElementById("errorPhone").innerHTML = "Phone number submitted successfully!";
-        document.getElementById("errorPhone").style.color = "green"; // Change to green on success
-        return true; // Allow form submission
+        // Validate email
+        if (email == "") {
+          document.getElementById("errorEmail").innerHTML =
+            "Please enter a valid email ";
+          document.getElementById("errorEmail").style.display = "block";
+          return false;
+        } else {
+          document.getElementById("errorEmail").style.display = "none";
+        }
+        // Validate tel
+        if (tel == "") {
+          document.getElementById("errorPhone").innerHTML =
+            "Please enter a valid Mobile Number ";
+          document.getElementById("errorPhone").style.display = "block";
+          return false;
+        } else {
+          document.getElementById("errorPhone").style.display = "none";
+        }
+        // Validate UserId
+        if (userId == "") {
+          document.getElementById("errorUserId").innerHTML =
+            "Please enter a valid User Id ";
+          document.getElementById("errorUserId").style.display = "block";
+          return false;
+        } else {
+          document.getElementById("errorUserId").style.display = "none";
+        }
+        // Validate UserId
+        if (password !== conformPassword) {
+          alert("please password and confirm password does not match");
+          return false;
+        } else {
+        }
+        if (password == "") {
+          document.getElementById("errorPassword").innerHTML =
+            "Please enter a valid User Id ";
+          document.getElementById("errorPassword").style.display = "block";
+          return false;
+        } else {
+          document.getElementById("errorPassword").style.display = "none";
+        }
+        if (conformPassword == "") {
+          document.getElementById("errorConfirmPassword").innerHTML =
+            "Please enter a valid User Id ";
+          document.getElementById("errorConfirmPassword").style.display =
+            "block";
+          return false;
+        } else {
+          document.getElementById("errorConfirmPassword").style.display =
+            "none";
+        }
+        // validae dob
+        if (dob == "") {
+          document.getElementById("errorDOB").innerHTML =
+            "Please enter a valid User Id ";
+          document.getElementById("errorDOB").style.display = "block";
+          return false;
+        } else {
+          // Calculate age
+          const dobDate = new Date(dob);
+          const currentDate = new Date();
+          const age = currentDate.getFullYear() - dobDate.getFullYear();
+          const month = currentDate.getMonth() - dobDate.getMonth();
+          const day = currentDate.getDate() - dobDate.getDate();
+
+          // Adjust age if the current date is before the birthday
+          if (month < 0 || (month === 0 && day < 0)) {
+            age--;
+          }
+
+          // Check if age is 18 or more
+          if (age < 18) {
+            errorDOB.innerHTML =
+              "Your age is under 18. You must be 18 or older.";
+            errorDOB.style.display = "block";
+            return false; // Prevent form submission
+          } else {
+            errorDOB.style.display = "none"; // Hide error if age is valid
+          }
+        }
+
+        // Add validation for other fields here...
+
+        // Allow form submission if all fields are valid
+      
+      // gender validation
+
+      if (gender == "") {
+        document.getElementById("errorGender").innerHTML =
+          "Please enter a gender ";
+        document.getElementById("errorGender").style.display = "block";
+        return false;
+      } else {
+        document.getElementById("errorGender").style.display = "none";
       }
-    </script>
+      // plot validation
+
+      if (plot == "") {
+        document.getElementById("errorPlot").innerHTML =
+          "Please enter a plot no.";
+        document.getElementById("errorPlot").style.display = "block";
+        return false;
+      } else {
+        document.getElementById("errorPlot").style.display = "none";
+      }
+      // area validation
+
+      if (area == "") {
+        document.getElementById("errorArea").innerHTML = "Please enter a area ";
+        document.getElementById("errorArea").style.display = "block";
+        return false;
+      } else {
+        document.getElementById("errorArea").style.display = "none";
+      }
+      // state validation
+
+      if (state == "") {
+        document.getElementById("errorState").innerHTML =
+          "Please enter a State ";
+        document.getElementById("errorState").style.display = "block";
+        return false;
+      } else {
+        document.getElementById("errorState").style.display = "none";
+      }
+      // plot validation
+
+      if (district == "") {
+        document.getElementById("errorDistict").innerHTML =
+          "Please enter a Distict";
+        document.getElementById("errorDistict").style.display = "block";
+        return false;
+      } else {
+        document.getElementById("errorDistict").style.display = "none";
+        return true;
+      }
+
+    }
     
+    
+    </script>
+
     <!-- <div class="form-container">
       <h2>Registration Form</h2>
       <form id="registrationForm" onsubmit="return validateForm()">
@@ -177,6 +445,7 @@
       }
      </script>  -->
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
 
